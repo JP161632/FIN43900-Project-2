@@ -1,0 +1,15 @@
+{
+  "preserved_at_utc": "2026-11-19T19:02:14.391816+00:00",
+  "new_lookback_months": 30,
+  "original_lookback_months": 36,
+  "prediction_source": "Student supplied the four answers directly in chat, with independent-authorship and tools-closed self-attestation.",
+  "collection_operator": "Assistant transcribed the supplied answers without substantive revision.",
+  "human_drafting_time": "Not independently observed.",
+  "prior_result_exposure": "Student explicitly refers to the previously seen 24-month case; the new 30-month result has not been supplied.",
+  "pre_run_feedback": "No assessment or correction of the prediction supplied before execution.",
+  "execution_status": "No fresh freeze or scenario execution performed by the assistant. Student must initiate the closed-tool freeze and run.",
+  "file_hashes": {
+    "docs/fresh-prediction-original.txt": "d574d2d324dc0de88c2e2daec3863d08f51ec390da47b09f91851a30a6ba7aa5",
+    "docs/fresh-prediction-input.json": "b77b197852156680e9108aec326dc1e537dbc48dfc0051f5d8ad23abf4a53cbd"
+  }
+}
