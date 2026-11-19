@@ -1,0 +1,4 @@
+# Archived hashes and PDF bytes must survive Windows/Linux checkouts unchanged.
+* -text
+*.pdf binary
+*.zip binary
