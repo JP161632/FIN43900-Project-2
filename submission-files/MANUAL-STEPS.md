@@ -8,10 +8,10 @@ The student prefers to retain the three current videos rather than make another 
 
 Only the following actions remain for the intended current-video submission:
 
-1. Grant the exact instructional-team GitHub accounts access to https://github.com/JP161632/FIN43900-Project-2 through Settings > Collaborators/access, and confirm accepted access. Your own working link is not proof of grader access. Record the actual result/date in the manifest; do not guess a reviewer identity.
+1. Repository access is now resolved: the student made https://github.com/JP161632/FIN43900-Project-2 public, and anonymous access was verified. No collaborator invitation is required while it remains public. Keep the submitted repository and video links available through the grade-appeal window.
 2. Confirm Videos 2 and 3 include the required webcam/visual evidence and clear audio. Video 1's opening webcam was observed. A missing required visual element creates additional uncertainty in the grade estimate.
 3. If the original Edition A checkpoint receipt/PDF exists in Brightspace, preserve it unchanged and supply it. If absent, the report already discloses that gap; no replacement or backdated checkpoint is claimed. Submitting with that known point risk does not require inventing a recovery.
-4. After access/evidence changes, refresh the manifest/upload copies and release version. Upload the three PDFs, three transcripts and manifest from submission-files/. Paste BRIGHTSPACE-COMMENT.txt into the assignment Comments field, submit by November 23 at 11:59 PM (subject to the current account header), reopen the submission and save the successful receipt.
+4. The public-access manifest and upload copies have been refreshed. Upload the seven files in submission-files/01-UPLOAD-TO-BRIGHTSPACE/. Paste BRIGHTSPACE-COMMENT.txt into the assignment Comments field, submit by November 23 at 11:59 PM (subject to the current account header), reopen the submission and save the successful receipt. The supporting-documents folder and ZIP are convenience copies, not extra required attachments.
 
 See final-grade-review.md for the conditional estimate with the existing videos. No further prediction or explanation is required for the completed 30-month exercise.
 

@@ -1,0 +1,25 @@
+PROJECT: Project 2 - Portfolio Committee Review
+VIDEO: 3 - Committee Presentation
+STABLE VIDEO URL: https://youtu.be/sqgNrHPguZ4
+LAST SUPPLIED CAPTION END: 00:03:14.400 (media duration not independently verified)
+REPOSITORY FROZEN VERSION: project-2-public-2026-11-19
+REVIEW REPOSITORY: https://github.com/JP161632/FIN43900-Project-2
+REVIEW TAG: project-2-public-2026-11-19
+
+EDITORIAL NOTE: Prepared from the YouTube captions supplied by the student. Obvious recognition errors, punctuation, and repeated words have been corrected; some filler words have been removed. The personal name in the introduction is omitted. The speaker's immediate correction of the equal-weight return is consolidated to 70.97%. Section timestamps use supplied caption start times and have not been independently checked against the audio. Numerical claims and the recommendation are preserved. This is an edited transcript, not an independent audiovisual verification.
+
+[00:00:01.040] Speaker: Hi everyone. Back here again with Video 3. My recommendation is not to deploy capital in the current optimized portfolio process. I'm asking the committee to authorize further paper research only.
+
+[00:00:15.519] The study concerns a four-stock thematic sleeve containing NVIDIA, Microsoft, TSM, and Qualcomm. It evaluates whether the optimization process adds value relative to simple allocations. It doesn't establish a suitable portfolio for a client's entire wealth.
+
+[00:00:35.760] The comparison uses the same four stocks, the same 24 evaluation months, and the same 10-basis-point one-way cost assumption, including initial purchase. The optimized portfolio returned 24.85% cumulatively, compared with 70.97% for equal weight. Its annualized net volatility was 29.61%, versus 27.79% for equal weight. Its month-end maximum drawdown was also larger. These results do not support adoption of the optimizer merely because it minimizes an estimated risk measure.
+
+[00:01:14.880] The concern is not just lower return. The original candidate reaches a 95% position at a replay boundary. A separate 50% target-cap scenario improves cumulative return to 33.84%, but still trails equal weight. Its largest starting position later reaches about 61% because holdings drift between trades. This illustrates why the committee needs an explicit concentration policy and why a historical covariance estimate should not be treated as a stable description of future risk.
+
+[00:01:51.200] Additional checks reinforce caution. The candidate trails equal weight in both 12-month subperiods, and the monitoring diagnostics show breaches. The data had already been inspected, so this is a chronological replay rather than an untouched holdout. Price adjustments are retrospective and execution is idealized. The descriptive uncertainty interval includes zero for the mean-return difference. The historical volume proxy also cannot establish live capacity. These limits restrict the action. Passing code tests does not make the investment case acceptable.
+
+[00:02:27.520] Finally, the research analyst should review the paper process quarterly and quarantine it on missing provenance, infeasibility, excessive target movement, or trailing-volatility breaches. The accepted thresholds are 15 percentage points and 22%, using the defined monitoring windows. The prospective proposal fixes the rules and a later execution buffer before observing new outcomes, with a proposed 12-month evaluation. No pilot has begun.
+
+[00:02:56.400] Reopening capital consideration requires a suitable mandate, independent review, and credible implementation evidence. The immediate committee action remains further evidence gathering, not deployment. Thank you.
+
+END OF CORRECTED TRANSCRIPT

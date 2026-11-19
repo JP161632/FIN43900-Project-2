@@ -1,51 +1,32 @@
-PROJECT 2 - SUBMISSION FILES AND STEPS
+PROJECT 2 - FINAL SUBMISSION COLLECTION
 
-LATEST STATUS: The fresh 30-month student prediction/run/reconciliation is now complete and verified. The current three videos are retained at the student's preference. No new prediction, rerun or replacement video is required to submit this chosen package, though Video 1's explicit AI-check gap remains a point risk. Read MANUAL-STEPS.md's current-status section for the remaining access, original-checkpoint-if-available, visual-confirmation and final-upload steps. The updated conditional estimate with existing videos is about 82%-86%, assuming grader access; this is not guaranteed.
+OPEN 01-UPLOAD-TO-BRIGHTSPACE. Its seven files are the required attachments:
+Research-Evolution.pdf
+Decision-Memo.pdf
+Validation-and-AI-Use.pdf
+transcript-video-1.txt
+transcript-video-2.txt
+transcript-video-3.txt
+submission-manifest.csv
 
-Required contents were verified against the course repository's PROJECT-SUBMISSION-ARCHITECTURE.md, especially "The final Brightspace submission contains," and projects/major-project-student-checklist.md. The architecture applies explicitly to Project 2. Brightspace supplies the exact deadline, any filename prefix, and the instructional-team GitHub access identity. The repository is sufficient to establish the attachment list below; no additional assignment screenshot is needed for that list.
+Paste BRIGHTSPACE-COMMENT.txt into the assignment Comments box. It contains
+the public repository link, visible-output link and three YouTube links.
 
-FILES TO ATTACH
-1. Research-Evolution.pdf
-2. Decision-Memo.pdf
-3. Validation-and-AI-Use.pdf
-4. transcript-video-1.txt
-5. transcript-video-2.txt
-6. transcript-video-3.txt
-7. submission-manifest.csv (required; review draft until remaining fields are verified)
+The repository is public and anonymous access was verified. No grader invitation
+is required while it remains public. Keep the repository/videos available through
+the grade-appeal window.
 
-These are the seven final Brightspace attachments specified by the shared architecture. Videos are supplied as links in the manifest, not as required MP4 attachments. The repository and visible output are required linked evidence, not additional PDF attachments. START-HERE.txt and VIDEO-AND-REPOSITORY-LINKS.txt are convenience files rather than additional required attachments.
+02-SUPPORTING-DOCUMENTS contains related report sources, the separately labeled
+retrospective baseline summary, actual fresh prediction/run/reconciliation and
+verification records. These remain in the repository too. They are supporting
+copies, not additional mandatory Brightspace attachments.
 
-LINKS TO PASTE
-The manifest must contain the repository URL, three video URLs, each video's title and duration, timestamped evidence indices, and repository access confirmation. VIDEO-AND-REPOSITORY-LINKS.txt collects the available URLs for convenience. Paste them into additional Brightspace link/text fields only if those fields request them. Include the visible-output link once the project is present in the review repository. YouTube videos may be Unlisted or Public, never Private, and must remain viewable through the grade-appeal window.
+Your fresh 30-month exercise is complete. Your existing videos are retained.
+Known original Edition A and Video 1 evidence gaps remain disclosed. If an
+original checkpoint receipt exists, preserve it unchanged. Confirm the remaining
+recordings have the required webcam/visual evidence and clear audio.
 
-BEFORE SUBMITTING
-1. Brightspace was inspected: Project 2 is due November 23, 2026 at 11:59 PM. Its instructions refer to the course repository. The attached actual 300-point rubric was read and mapped to the project evidence. Confirm any later changes/Special Access before submitting.
-2. Review the three rebuilt PDFs. Their current recording-status and AI-use text now incorporates the supplied links/transcripts and preserves the original process gaps. These files were rendered and checked; refresh them if you supply new recordings or human evidence.
-3. Review each edited transcript alongside the uploaded video. Check numerical claims and section timestamps. Caption end times are not verified media durations. In Video 1, review the concentration-causality claim; in Video 2, review the spoken line 12/guide line 112 reference. Editorial notes identify these issues.
-4. YouTube public page metadata confirms current durations of 2:52, 4:56 and 3:13 with captions and playable status, within the 3:00/5:00/5:00 limits. Watch the actual media to verify screens, audio, webcam and ending. Metadata does not certify those details.
-5. Use the private Project 2 repository in the manifest. Its publication commit is recorded in the local publication receipt when the upload completes. Grader access still requires the exact instructional-team identities from Brightspace.
-6. Your confirmation that the video links work is recorded. Confirm instructional-team access to the new private repository and artifacts; this remains separate from your own signed-in access.
-7. Resolve or truthfully disclose the original Edition A checkpoint/receipt status and the saved personal changed-input rerun output. The existing project records identify these as outstanding evidence; transcripts do not resolve them.
-8. The manifest now contains stable release-tag URLs and metadata durations. Add only genuine access confirmations and refresh both copies after further changes.
-9. Reports and current status text have been reconciled. After new human evidence or replacement videos, rebuild affected reports, visually check them, rerun the package audit and refresh the upload copies.
-10. Upload the required files, paste the links, submit in Brightspace, and save the successful receipt. Reopen the submission to check attachments and links.
-
-ADDITIONAL REQUIREMENTS FOUND IN THE GOVERNING ARCHITECTURE
-- Video 1 must identify at least one AI-generated claim/suggestion/result, show its check, and state whether it was accepted, qualified, corrected, or rejected and why. The supplied Video 1 text explains checks and research evolution but does not explicitly identify a tested AI output or the driver of change. Check the actual visual evidence before treating that requirement as met; adding a written note does not establish that it appeared in the recording.
-- A small webcam view is required unless an approved accommodation supplies an equivalent identity/ownership check. Supplied transcript text cannot verify this visual requirement.
-- The repository must retain docs/research-evolution.pdf, docs/decision-memo.pdf (or decision-deck.pdf), the content-equivalent docs/validation-and-ai-use.md, and the three docs/transcript-video-N.txt files. PDF copies were added to these required docs paths during this instruction check.
-- The original Edition A checkpoint is a separate Brightspace submission. A missing original checkpoint cannot be recreated retrospectively; the architecture still requires Edition B and Video 1 with the gap accurately disclosed.
-
-SOURCE LOCATIONS (relative to the course repository root)
-PROJECT-SUBMISSION-ARCHITECTURE.md
-projects/major-project-student-checklist.md
-lessons/week-12/student-handout.md
-lessons/week-13/lab-20-project2-readiness.md
-
-EXACT MANUAL WALKTHROUGH
-Read ../docs/manual-final-steps.md. It gives the recording, fresh prediction-first exercise, original-checkpoint, grader-access and Brightspace steps. Replacement Video 1 preparation is in ../recording/VIDEO-1-FINAL-SCRIPT.txt and VIDEO-1-FINAL-EVIDENCE.html. The assistant has not executed the fresh case or supplied a prediction.
-
-OPTIONAL
-A deployed application is optional under the repository checklist, unless Brightspace adds a requirement. The two-page memo is the chosen memo/deck option; no separate deck is needed under that checklist.
-
-This folder excludes source code and data; the accessible repository supplies them. It is an upload collection, not a standalone reproducible project archive.
+Submit the seven attachments by the current Brightspace deadline (last inspected:
+November 23, 2026 at 11:59 PM), reopen the submission and save the successful receipt.
+The ZIP is a convenience archive; attach the seven individual files unless the
+assignment explicitly permits the ZIP instead.

@@ -1,5 +1,7 @@
 # Remaining work before submission
 
+PUBLIC ACCESS UPDATE: The repository is now public and anonymous access works. The manifest records verified access. No grader invitation is needed while it remains public. Upload the seven final attachments and paste the prepared links/comment in Brightspace, then save the receipt. Known Edition A and Video 1 evidence gaps remain disclosed; no new video or exercise is being requested for the chosen submission.
+
 LATEST: The fresh 30-month exercise and student reconciliation are now complete and
 verified. The current three videos are retained at the student's preference. Follow
 the CURRENT STATUS section of manual-final-steps.md: grant/verify private grader

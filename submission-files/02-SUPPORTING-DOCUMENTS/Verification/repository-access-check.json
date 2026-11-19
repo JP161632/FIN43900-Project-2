@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-19T19:37:52.796106+00:00",
+  "repository": "https://github.com/JP161632/FIN43900-Project-2",
+  "visibility": "public",
+  "public_access_verified": true,
+  "anonymous_readme_http_status": 200,
+  "meaning": "GitHub reports isPrivate=false; unauthenticated raw README request succeeded. Public reviewer access does not require collaborator invitations.",
+  "prior_private_check": {
+    "checked_at_utc": "2026-11-19T19:31:05.269197+00:00",
+    "repository": "https://github.com/JP161632/FIN43900-Project-2",
+    "collaborator_count": 1,
+    "pending_invitation_count": 0,
+    "instructional_team_access_established": false,
+    "meaning": "No additional collaborator or pending invitation was found. Exact grader identities must be granted and accepted before relying on the private repository for grading."
+  }
+}

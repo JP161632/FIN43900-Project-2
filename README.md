@@ -18,8 +18,8 @@ relative to equal-weight and inverse-volatility baselines. The current decision 
 - `docs/manual-final-steps.md` gives exact remaining student actions; `evidence/package-readiness.json`
   separates mechanical completeness from unresolved human/access evidence.
 
-The full package is intended for a private course-review repository because market-data
-redistribution rights are unverified. The instructional team must receive access.
+The student made the review repository public on November 19; anonymous access was
+verified. Redistribution rights remain unverified; visibility is not a license.
 
 For recording the videos, open `recording/START-HERE.html` in a browser. It contains
 numbered evidence screens and matching narration for Videos 1 and 3.
@@ -123,7 +123,7 @@ holdout. Current adjustment factors, retrospective universe selection and ideali
 boundary execution prevent a historical point-in-time investability claim. No tax,
 market-impact, ADR-fee or execution-delay model is supplied. No live pilot has run.
 Source redistribution rights are not independently cleared: keep the retained archive
-in the course workspace/private review package pending rights verification; do not
+with their source and rights limitations explicit; do not
 interpret public access as a redistribution license. No publication is performed.
 
 ## Ownership and submission status

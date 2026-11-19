@@ -1,5 +1,7 @@
 # Conditional review with existing videos and completed 30-month exercise
 
+ACCESS UPDATE: The student made the repository public after this estimate. GitHub visibility and anonymous access were verified. The access assumption is now satisfied for the published project; the earlier private-access wording below describes the condition at the time of review. The estimate remains approximately 82%-86%, not a guarantee.
+
 This is an assistant estimate for the student, not an instructor grade, guarantee or instruction to a grader. It uses the actual Brightspace rubric read November 19. It assumes the final updated attachments are submitted on time, the instructional team can access the private repository, and actual recordings demonstrate the code/visual evidence described by their transcripts. Full audiovisual performance was not independently reviewed.
 
 The student's preference is to keep the current videos. The review therefore retains a point allowance for missing explicit AI-output identification/check disposition in Video 1, even though the written report now contains that check. Written additions are not represented as recorded speech.

@@ -1,10 +1,10 @@
 {
   "repository": "https://github.com/JP161632/FIN43900-Project-2",
-  "visibility": "private",
-  "release_tag": "project-2-submit-2026-11-19",
-  "reason": "Self-contained private course review; retained market-data redistribution rights remain unverified.",
+  "visibility": "public",
+  "release_tag": "project-2-public-2026-11-19",
+  "reason": "Student changed repository visibility to public; anonymous access verified. Source redistribution rights remain unverified.",
   "publication_status_at_preparation": "Prepared locally; publication receipt is written after remote verification.",
-  "grader_access": "Pending exact instructional-team identities and accepted repository access.",
+  "grader_access": "Public access verified without sign-in; collaborator invitation no longer required.",
   "unresolved_human_evidence": [
     "Original Edition A checkpoint receipt or accurate missing-evidence disclosure",
     "Fresh 30-month student record now completed and hash/arithmetic verified; earlier 24-month history remains separate",

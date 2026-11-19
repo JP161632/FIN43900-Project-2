@@ -2,9 +2,9 @@ PROJECT: Project 2 - Portfolio Committee Review
 VIDEO: 2 - Codebase Walkthrough and Validation
 STABLE VIDEO URL: https://youtu.be/EZolrbd3xOQ
 LAST SUPPLIED CAPTION END: 00:04:57.280 (media duration not independently verified)
-REPOSITORY FROZEN VERSION: project-2-submit-2026-11-19
+REPOSITORY FROZEN VERSION: project-2-public-2026-11-19
 REVIEW REPOSITORY: https://github.com/JP161632/FIN43900-Project-2
-REVIEW TAG: project-2-submit-2026-11-19
+REVIEW TAG: project-2-public-2026-11-19
 
 EDITORIAL NOTE: Prepared from the YouTube captions supplied by the student. Obvious recognition errors, punctuation, and repeated words have been corrected; some filler words have been removed. The personal name in the introduction is omitted. Section timestamps use supplied caption start times and have not been independently checked against the audio. Numerical claims and the recommendation are preserved. This is an edited transcript, not an independent audiovisual verification.
 

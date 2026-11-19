@@ -1,5 +1,7 @@
 # November 19 final preparation checks
 
+PUBLIC ACCESS UPDATE: The student changed repository visibility to public. The API reports isPrivate=false and an unauthenticated raw README request returned HTTP 200. This supersedes the earlier private-access blocker below. The public-access release and updated manifest are recorded separately.
+
 LATEST UPDATE: The student's fresh 30-month prediction-first run and completed
 reconciliation are now present. Read-only verification passes snapshot/precommit
 hashes, prediction preservation, record ordering, original baseline matching and

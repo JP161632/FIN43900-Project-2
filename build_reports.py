@@ -482,8 +482,9 @@ month was excluded by the original download policy. Retrospective split/dividend
 adjustments are those available at retrieval; original historical vintages were
 not reconstructed. This limits point-in-time claims. Public access does not prove
 redistribution rights; those rights remain unverified. No credentials or private
-client data are required. The full archived package is intended for a private
-course-review repository; private access does not resolve redistribution rights.
+client data are required. The student made the review repository public on
+November 19; anonymous access was verified. Public visibility does not establish
+redistribution rights, which remain unverified.
 
 ## Finance and replay conventions
 Means use monthly arithmetic returns times 12. Standard deviations use sample ddof=1
@@ -655,8 +656,9 @@ AI-output identification is absent from supplied speech. Video 2's captioned lin
 12 is flagged against guide line 112. Original speech is not silently rewritten.
 
 ## Remaining original and submission evidence
-Original Edition A checkpoint acceptance, full audiovisual ownership evidence,
-grader access and successful Brightspace submission remain to be verified.
+Original Edition A checkpoint acceptance, full audiovisual ownership evidence
+and successful Brightspace submission remain to be verified. The student made
+the repository public, and anonymous access was verified on November 19.
 The current videos are retained at the student's preference; Video 1's missing
 explicit AI-output identification remains a known communication/evidence gap.
 The manual checklist supplies exact actions. Missing checkpoint

@@ -86,6 +86,8 @@ def main():
     if all(row['access_checked'].lower()=='yes' for row in video_items):
         gaps=[('Private-repository instructional-team access remains unverified'
                if item=='Repository/video access checks' else item) for item in gaps]
+    if all(row['access_checked'].lower()=='yes' for row in records if row['required']=='yes'):
+        gaps=[item for item in gaps if item not in ['Repository/video access checks','Private-repository instructional-team access remains unverified']]
     report={'audited_at_utc':datetime.now(timezone.utc).isoformat(),
             'manifest_rows':len(records),'required_rows':sum(r['required']=='yes' for r in records),
             'missing_required_locations':[r['item'] for r in records if r['required']=='yes' and not r['location_or_url']],
