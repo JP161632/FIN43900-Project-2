@@ -2,9 +2,11 @@
 
 This checklist follows PROJECT-SUBMISSION-ARCHITECTURE.md and the course's major-project checklist. The technical work, report preparation and transcript editing can be assisted. Identity evidence, original checkpoint history, closed-tool execution and Brightspace submission must remain genuine.
 
+Brightspace was inspected on November 19: the final assignment is due November 23, 2026 at 11:59 PM and currently shows no submissions. Its instructions refer to the course GitHub repository. The attached actual 300-point rubric was read; see brightspace-rubric-reference.md. The student confirmed the supplied video links work. A webcam view was observed in the opening sample of Video 1; this does not certify its full duration or Videos 2 and 3.
+
 ## 1. Confirm webcam evidence in every video
 
-1. Play each final upload. Confirm a small webcam view is present, unless an approved accommodation supplies an equivalent check.
+1. A webcam view was observed in Video 1's opening. Confirm it remains present and check Videos 2 and 3, unless an approved accommodation supplies an equivalent check.
 2. If a video lacks that view and you have no approved alternative, record it again with both the screen and webcam captured. For Video 2, show the actual repository, numerical logic and live validation as in the existing guide. For Video 3, show the committee evidence while presenting the recommendation.
 3. Upload the replacement as Unlisted or Public. Keep the prior link/recording as history and identify the new final link before submission. Do not replace submitted recordings after the deadline.
 4. Retain real captions from each final version. A replacement needs a matching transcript and timestamp index.
@@ -75,7 +77,7 @@ The automated clean-environment reproduction is complete. If a classmate is avai
 
 ## 7. Submit the frozen seven-file package
 
-1. Confirm the deadline and any required filename prefix in the actual Brightspace assignment header. The repository establishes the required contents, but does not expose your account's Special Access or final upload fields.
+1. The inspected final assignment header says November 23, 2026 at 11:59 PM. Its instructions refer to the course repository, and it has an Upload area and Comments box. Confirm any later change or Special Access in your account. No additional filename prefix was visible in the inspected assignment instructions.
 2. Finish any replacement video/captions and access checks before the final freeze. Refresh the reports, manifest and upload copies after these changes.
 3. Attach exactly these required files from `submission-files/`: `Research-Evolution.pdf`, `Decision-Memo.pdf`, `Validation-and-AI-Use.pdf`, `transcript-video-1.txt`, `transcript-video-2.txt`, `transcript-video-3.txt`, `submission-manifest.csv`.
 4. The manifest must include the final repository and video URLs, titles, durations, timestamped evidence index, access confirmation and frozen version. A deployed app is optional under the shared architecture.

@@ -7,6 +7,8 @@
 - 3 submission regression checks cover reviewer URL preservation, distinct video/transcript mapping and byte-identical upload copies.
 - Original prediction/archive integrity passes `student_rerun.py --verify-only`; the assistant did not launch a student-labelled rerun.
 - Public YouTube metadata reports playable status, captions and durations 2:52 / 4:56 / 3:13, within limits. Full audiovisual and webcam review remains unverified.
+- The student subsequently confirmed the video links work. Video 1's opening was observed playing the Edition A screen with a small webcam view. Full-duration coverage and Videos 2/3 visual evidence remain unverified.
+- The actual 300-point Brightspace rubric was opened and read. The final assignment displays November 23, 2026 at 11:59 PM and no submissions yet; its instructions refer to the course repository. A paraphrased rubric reference and evidence map are retained in docs/.
 - Four PDFs render to 10 pages total: baseline 1, memo 2, evolution 2, validation 5. The final contact sheet and evolution pages were visually inspected with no observed clipping, overlaps or orphan heading.
 - The manifest has all 12 rows and all 11 required locations. Access fields remain unconfirmed until actual instructional-team access is established.
 - A fresh 30-month exercise and blank human prediction input are prepared, not executed. No new prediction or result has been supplied by the assistant.

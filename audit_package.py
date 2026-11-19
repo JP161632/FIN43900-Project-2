@@ -78,6 +78,9 @@ def main():
     gaps=[('Student code defense: recorded captions supplied; actual visual demonstration remains unverified'
            if item=='Student code defense' else item) for item in gaps]
     gaps.append('Video 1 explicit AI-output check/disposition not established by supplied transcript')
+    if all(row['access_checked'].lower()=='yes' for row in video_items):
+        gaps=[('Private-repository instructional-team access remains unverified'
+               if item=='Repository/video access checks' else item) for item in gaps]
     report={'audited_at_utc':datetime.now(timezone.utc).isoformat(),
             'manifest_rows':len(records),'required_rows':sum(r['required']=='yes' for r in records),
             'missing_required_locations':[r['item'] for r in records if r['required']=='yes' and not r['location_or_url']],

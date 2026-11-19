@@ -14,8 +14,9 @@ and three regression checks cover the link/attachment workflow.
 
 The private publication record and final manifest establish the eventual review
 locations. Grader access must be granted using the identities specified by Brightspace.
-The full analytic rubric referenced by the architecture is absent from the available
-course repository; this review uses the published six weights and evidence requirements.
+The actual Project 2 Analytic Rubric was subsequently opened in Brightspace on
+November 19. Its six criterion weights and performance levels are summarized in
+brightspace-rubric-reference.md; the requirements-to-evidence map is in rubric-evidence-map.md.
 
 Highest remaining point risks: original Edition A checkpoint, original locked-run
 execution mode, explicit Video 1 AI check in the actual recording, webcam/visual
@@ -29,7 +30,7 @@ are in manual-final-steps.md. No missing original event is claimed as repaired.
 | Financial soundness and judgment | 60 | Baseline/candidate comparisons, self-financing costs, drift/cap scenario, subperiods, actual monitoring flags, target constraints and a unit-consistent historical liquidity proxy | Liquidity proxy is not executable capacity; no real-client suitability or fill evidence; no deployment claim |
 | Technical execution and usability | 45 | Self-contained app, missing/malformed/stale output handling, complete dependency lock, verified clean installation and isolated matching outputs | Unaided human reviewer remains unobserved; reviewer access not yet verified |
 | Validation, sensitivity and reproducibility | 75 | 19 numerical methods, ten actual-page checks, source reconstruction, window/cost/cap tests, paired block interval, subperiods, constraints and clean replay | Locked execution-mode condition unresolved despite preserved prediction/result/reflection; historical data already inspected |
-| Professional communication | 30 | Three report PDFs, matching Markdown, README, manifest and three distinct recording scripts | Actual videos, corrected transcripts, stable URLs, access checks and submission receipt absent |
+| Professional communication | 30 | Three rebuilt report PDFs, matching Markdown, README, linked manifest and three actual video URLs with corrected supplied transcripts | Explicit AI-output check in actual Video 1, full audiovisual review, private grader access and final receipt remain |
 
 ## Highest-risk claims and resulting actions
 

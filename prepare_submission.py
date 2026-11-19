@@ -7,7 +7,7 @@ import shutil
 
 ROOT=Path(__file__).resolve().parent
 REPO='https://github.com/JP161632/FIN43900-Project-2'
-TAG='project-2-review-2026-11-19'
+TAG='project-2-review-2026-11-19-final'
 LABELS={1:'Research Evolution',2:'Codebase Walkthrough and Validation',3:'Committee Presentation'}
 VIDEO_IDS={1:'tMAmXiDBVBg',2:'EZolrbd3xOQ',3:'sqgNrHPguZ4'}
 FILES={'Research-Evolution.pdf':'Research-Evolution.pdf','Repository':'README.md',
@@ -19,6 +19,9 @@ def main():
     with path.open(encoding='utf-8-sig',newline='') as handle:
         reader=csv.DictReader(handle);columns=reader.fieldnames;rows=list(reader)
     metadata={}
+    access_path=ROOT/'evidence/video-access-confirmation.json'
+    confirmed_ids=(json.loads(access_path.read_text()).get('confirmed_video_ids',[])
+                   if access_path.exists() else [])
     if (ROOT/'evidence/video-metadata.json').exists():
         metadata={v['video']:v for v in json.loads((ROOT/'evidence/video-metadata.json').read_text())['videos']}
     for row in rows:
@@ -36,7 +39,8 @@ def main():
             meta=metadata.get(number,{})
             if meta.get('duration_seconds') is not None:
                 seconds=meta['duration_seconds'];row['duration_or_as_of']=f'{seconds//60}:{seconds%60:02d} (YouTube page metadata)'
-                row['notes']='Duration read from public YouTube page; limit '+('3:00' if number==1 else '5:00')+'. Actual visual content and grader playback unverified.'
+                row['notes']='Student confirmed video links work on November 19. Public page duration within '+('3:00' if number==1 else '5:00')+' limit. Full audiovisual review remains separate.'
+            row['access_checked']='yes' if VIDEO_IDS[number] in confirmed_ids else ''
             row['frozen_or_commit_id']='YouTube ID:'+VIDEO_IDS[number]
         if item.startswith('Transcript Video '):
             number=int(item[-1]);local=f'docs/transcript-video-{number}.txt'
@@ -57,6 +61,13 @@ def main():
     lines.extend(['Grant the instructional team access to the private repository. Video access and webcam/visual evidence still require human verification.'])
     (target/'OPEN-VIDEO-LINKS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     (target/'VIDEO-AND-REPOSITORY-LINKS.txt').write_text('\n'.join(line for line in lines if not line.startswith('#'))+'\n',encoding='utf-8')
+    comment=['Project 2 - Portfolio Committee Review','',
+             'Repository (private instructional-team review): '+REPO+'/tree/'+TAG,
+             'Visible executed output: '+REPO+'/blob/'+TAG+'/outputs/visible_output.json','']
+    for number in VIDEO_IDS:comment.append(f'Video {number} - {LABELS[number]}: https://youtu.be/{VIDEO_IDS[number]}')
+    comment.extend(['','Recommendation: no capital deployment; further paper research only.',
+                    'The attached manifest contains video evidence indices, artifact locations and frozen versions. The three PDFs and three corrected transcripts are attached separately.'])
+    (target/'BRIGHTSPACE-COMMENT.txt').write_text('\n'.join(comment)+'\n',encoding='utf-8')
     print('Refreshed manifest, seven required attachments and readable link index.')
 
 if __name__=='__main__':main()

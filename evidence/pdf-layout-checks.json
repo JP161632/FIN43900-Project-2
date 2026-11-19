@@ -51,5 +51,5 @@
                                "text_within_bounds":  true
                            }
                        ],
-    "visual_review":  "Assistant inspected the final 10-page rendered contact sheet and both research-evolution pages on 2026-11-19. No clipping, overlap, orphan heading or table overflow observed. Decision memo remains two pages."
+    "visual_review":  "Final 10-page report layout reviewed on November 19, including latest validation page 5. No observed clipping, overlap or table overflow. Memo remains two pages; evolution two; validation five; retrospective baseline one."
 }

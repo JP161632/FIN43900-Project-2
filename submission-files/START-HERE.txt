@@ -17,12 +17,12 @@ LINKS TO PASTE
 The manifest must contain the repository URL, three video URLs, each video's title and duration, timestamped evidence indices, and repository access confirmation. VIDEO-AND-REPOSITORY-LINKS.txt collects the available URLs for convenience. Paste them into additional Brightspace link/text fields only if those fields request them. Include the visible-output link once the project is present in the review repository. YouTube videos may be Unlisted or Public, never Private, and must remain viewable through the grade-appeal window.
 
 BEFORE SUBMITTING
-1. Read the Brightspace Project 2 assignment and confirm its deadline and upload instructions.
+1. Brightspace was inspected: Project 2 is due November 23, 2026 at 11:59 PM. Its instructions refer to the course repository. The attached actual 300-point rubric was read and mapped to the project evidence. Confirm any later changes/Special Access before submitting.
 2. Review the three rebuilt PDFs. Their current recording-status and AI-use text now incorporates the supplied links/transcripts and preserves the original process gaps. These files were rendered and checked; refresh them if you supply new recordings or human evidence.
 3. Review each edited transcript alongside the uploaded video. Check numerical claims and section timestamps. Caption end times are not verified media durations. In Video 1, review the concentration-causality claim; in Video 2, review the spoken line 12/guide line 112 reference. Editorial notes identify these issues.
 4. YouTube public page metadata confirms current durations of 2:52, 4:56 and 3:13 with captions and playable status, within the 3:00/5:00/5:00 limits. Watch the actual media to verify screens, audio, webcam and ending. Metadata does not certify those details.
 5. Use the private Project 2 repository in the manifest. Its publication commit is recorded in the local publication receipt when the upload completes. Grader access still requires the exact instructional-team identities from Brightspace.
-6. Test all video links logged out. Confirm instructional-team access to the repository and artifacts. Record actual results in the manifest.
+6. Your confirmation that the video links work is recorded. Confirm instructional-team access to the new private repository and artifacts; this remains separate from your own signed-in access.
 7. Resolve or truthfully disclose the original Edition A checkpoint/receipt status and the saved personal changed-input rerun output. The existing project records identify these as outstanding evidence; transcripts do not resolve them.
 8. The manifest now contains stable release-tag URLs and metadata durations. Add only genuine access confirmations and refresh both copies after further changes.
 9. Reports and current status text have been reconciled. After new human evidence or replacement videos, rebuild affected reports, visually check them, rerun the package audit and refresh the upload copies.

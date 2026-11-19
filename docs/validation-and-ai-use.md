@@ -225,6 +225,9 @@ Separately, November 19 public YouTube page metadata reports playable status,
 captions and durations of 2:52, 4:56 and 3:13, all within limits. Caption endpoints
 can extend beyond the reported media endpoint; the supplied section indices
 remain inside each duration. Metadata is not full playback verification.
+The student subsequently confirmed the video links work. A small webcam view was
+observed in the opening sample of Video 1 during browser review. Full recording
+coverage and Videos 2/3 webcam evidence remain separate from that sample.
 Caption corrections include Edition A/B, Streamlit, requirements-lock.txt, square
 root of four, allocation instability and capital deployment. Video 3's immediate
 spoken correction is consolidated to 70.97%. No later written improvement is
@@ -241,3 +244,7 @@ Original Edition A checkpoint acceptance, the saved personal rerun, actual oral
 ownership evidence, grader access and the successful Brightspace submission remain
 to be verified. The manual checklist supplies exact actions. Missing checkpoint
 history is not repaired by a retrospective label or an already-seen test.
+The actual Brightspace rubric was inspected November 19; the final assignment
+displays November 23, 2026 at 11:59 PM and directs students to the course repository.
+Its rubric reference and evidence map are retained in docs/. The prepared fresh
+30-month case has not been run and its prediction remains blank for the student.

@@ -15,8 +15,9 @@ human authorship of earlier work, or completion of any closed-tool exercise.
 - Quarterly review and the discussed 15-point target-change / 22% trailing-volatility limits.
 - Existing two-page committee memo as the communication format.
 
-No detailed student-authored finance justification beyond that acceptance has been
-provided; the record does not invent one. A demonstrated explanation remains separate.
+Subsequent student-supplied video captions contain finance explanations, a changed-input
+reflection and the committee recommendation. Those are retained in the three actual
+edited transcripts. Full audiovisual verification and tool-state evidence remain separate.
 
 ## Baseline selection
 
