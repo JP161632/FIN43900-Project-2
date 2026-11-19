@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "method": "Fresh Python process, isolated copied project, unrelated working directory, existing course interpreter",
+  "command": "python <isolated-copy>/analysis.py",
+  "python": "3.13.15 (main, Sep  1 2026, 14:16:48) [MSC v.1944 64 bit (AMD64)]",
+  "environment_limitation": "Existing installed dependencies reused. No clean dependency installation or unaided human cold run claimed.",
+  "first_failure": null,
+  "exit_code": 0,
+  "identical_except_run_timestamp": true,
+  "elapsed_seconds": 5.321,
+  "stdout": "Continue paper research only; do not approve capital deployment.\nequal_10bps: net cumulative 70.97%; annual volatility 27.79%; max drawdown -14.59%\ninverse_vol_10bps: net cumulative 62.16%; annual volatility 27.14%; max drawdown -16.62%\ncandidate_10bps: net cumulative 24.85%; annual volatility 29.61%; max drawdown -28.14%\n"
+}

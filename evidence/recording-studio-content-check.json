@@ -1,0 +1,21 @@
+{
+  "source_contracts_verified": true,
+  "scripts": [
+    {
+      "video": 1,
+      "screens": 4,
+      "spoken_words": 282,
+      "estimated_seconds_at_125wpm_plus_3_seconds_per_change": 144,
+      "maximum_seconds": 180
+    },
+    {
+      "video": 3,
+      "screens": 5,
+      "spoken_words": 384,
+      "estimated_seconds_at_125wpm_plus_3_seconds_per_change": 196,
+      "maximum_seconds": 300
+    }
+  ],
+  "screen_count": 9,
+  "note": "Timing is an estimate; final durations and transcripts must come from actual recordings."
+}

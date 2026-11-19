@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-11-19T16:11:42.334407+00:00",
+  "videos": [
+    {
+      "video": 1,
+      "id": "tMAmXiDBVBg",
+      "url": "https://youtu.be/tMAmXiDBVBg",
+      "duration_limit_seconds": 180,
+      "playability_status": "OK",
+      "duration_seconds": 172,
+      "within_limit": true,
+      "is_private": false,
+      "caption_track_count": 1,
+      "meaning": "Public page metadata only; actual media decoding, webcam and instructional-team access unverified."
+    },
+    {
+      "video": 2,
+      "id": "EZolrbd3xOQ",
+      "url": "https://youtu.be/EZolrbd3xOQ",
+      "duration_limit_seconds": 300,
+      "playability_status": "OK",
+      "duration_seconds": 296,
+      "within_limit": true,
+      "is_private": false,
+      "caption_track_count": 1,
+      "meaning": "Public page metadata only; actual media decoding, webcam and instructional-team access unverified."
+    },
+    {
+      "video": 3,
+      "id": "sqgNrHPguZ4",
+      "url": "https://youtu.be/sqgNrHPguZ4",
+      "duration_limit_seconds": 300,
+      "playability_status": "OK",
+      "duration_seconds": 193,
+      "within_limit": true,
+      "is_private": false,
+      "caption_track_count": 1,
+      "meaning": "Public page metadata only; actual media decoding, webcam and instructional-team access unverified."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+PROJECT: Project 2 - Portfolio Committee Review
+VIDEO: 1 - Research Evolution
+STABLE VIDEO URL: https://youtu.be/tMAmXiDBVBg
+LAST SUPPLIED CAPTION END: 00:02:53.120 (media duration not independently verified)
+REPOSITORY FROZEN VERSION: project-2-review-2026-11-19
+REVIEW REPOSITORY: https://github.com/JP161632/FIN43900-Project-2
+REVIEW TAG: project-2-review-2026-11-19
+
+EDITORIAL NOTE: Prepared from the YouTube captions supplied by the student. Obvious recognition errors, punctuation, and repeated words have been corrected; some filler words have been removed. The personal name in the introduction is omitted. Section timestamps use supplied caption start times and have not been independently checked against the audio. Numerical claims and the recommendation are preserved. This is an edited transcript, not an independent audiovisual verification.
+
+[00:00:01.040] Speaker: Hi everyone. Getting started on Video 1 for Project 2. I'm excited to get into this. We're going to start here with Edition A, or my starting point. Here we go.
+
+[00:00:10.480] The project asks whether an optimized portfolio of NVIDIA, Microsoft, TSM, and Qualcomm is ready for investment use. I use my earlier portfolio results as a retrospective Edition A baseline. The starting allocation was mostly Microsoft and TSM, and the position was a provisional pilot with monitoring. But there was already a warning: changing the estimation window moved one asset's weight by 20 percentage points. The apparently stable TSM stress did not resolve that concern at all.
+
+[00:00:34.960] As you can see, here are the weights, or percentages, of each of these picks in my portfolio. Obviously, Microsoft being at 70% is probably not a good start, but we'll move on.
+
+[00:00:45.040] Here we're moving into Edition B. Edition B adds a rolling comparison with equal weight and inverse volatility, using the same stocks, evaluation months, and trading-cost assumptions. This table changed my recommendation. The optimized portfolio returned 24.85% cumulatively, while equal weight returned 70.97%. The optimized portfolio had higher realized volatility and a larger drawdown. I therefore moved from a provisional pilot position to no capital deployment and further paper research only.
+
+[00:01:13.200] As you can see, here are the differences in net cumulative return of the optimized portfolio compared to equal weight. Not even close. The volatility obviously was higher because there was more concentration of positions here, and the maximum drawdown, again, from the concentration of positions, is why it's higher than the rest.
+
+[00:01:29.680] We move on to the third point: more checks strengthened the decision. I also checked whether the conclusion depended on one part of the sample. The optimized portfolio trails equal weight in both 12-month segments. Applying the accepted monitoring limits flags one excessive target change and nine trailing-volatility months. These are diagnostic results. They do not mean a live kill rule was executed. I kept the failures visible instead of changing the thresholds to make the strategy pass. As you can see, it's visualized here as well.
+
+[00:01:59.439] Moving on to my final point, my prediction was only partly supported. Like I mentioned, I predicted higher volatility and larger target changes. My input prediction was about shortening the window to 24 months, and I believed that doing that would increase the largest quarterly target change from 20 to 25 percentage points. But realized net volatility fell from 29.61% to 27.83%, so my volatility prediction was wrong.
+
+[00:02:24.720] This taught me to separate allocation instability from realized risk. The result does not establish a durable improvement, and my recommendation remained unchanged.
+
+[00:02:32.400] As you can see, here's a visualized version of a 36-month window compared to the 24-month window. The volatility dropped, which is interesting, and the net cumulative return actually was higher with the shorter window. But that could be due to many factors and less data. Thank you. This was Video 1. Looking forward to video...
+
+END OF CORRECTED TRANSCRIPT
+
+REVIEW NOTES (editorial; not represented as spoken):
+- At approximately 00:01:23-00:01:31, the speaker attributes higher realized volatility and drawdown to concentration. The comparison does not isolate concentration as the cause; the spoken claim is retained rather than silently rewritten.
+- The supplied final caption ends mid-sentence after "video"; no missing ending has been invented.

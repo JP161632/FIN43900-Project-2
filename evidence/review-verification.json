@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "tests_run": 5,
+  "output": "test_constraint_violation_is_rejected (__main__.ReviewAudit.test_constraint_violation_is_rejected) ... ok\ntest_liquidity_dollars_and_nav_scaling (__main__.ReviewAudit.test_liquidity_dollars_and_nav_scaling) ... ok\ntest_monitoring_warmup_and_strict_threshold (__main__.ReviewAudit.test_monitoring_warmup_and_strict_threshold) ... ok\ntest_replay_periods_reconcile_and_all_targets_pass (__main__.ReviewAudit.test_replay_periods_reconcile_and_all_targets_pass) ... ok\ntest_subperiod_compounding_known_answer (__main__.ReviewAudit.test_subperiod_compounding_known_answer) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.217s\n\nOK\n"
+}

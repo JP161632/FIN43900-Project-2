@@ -1,0 +1,55 @@
+﻿{
+    "rendered_pages":  [
+                           {
+                               "document":  "Edition-A-Retrospective-Baseline",
+                               "page":  1,
+                               "text_within_bounds":  true
+                           },
+                           {
+                               "document":  "Decision-Memo",
+                               "page":  1,
+                               "text_within_bounds":  true
+                           },
+                           {
+                               "document":  "Decision-Memo",
+                               "page":  2,
+                               "text_within_bounds":  true
+                           },
+                           {
+                               "document":  "Research-Evolution",
+                               "page":  1,
+                               "text_within_bounds":  true
+                           },
+                           {
+                               "document":  "Research-Evolution",
+                               "page":  2,
+                               "text_within_bounds":  true
+                           },
+                           {
+                               "document":  "Validation-and-AI-Use",
+                               "page":  1,
+                               "text_within_bounds":  true
+                           },
+                           {
+                               "document":  "Validation-and-AI-Use",
+                               "page":  2,
+                               "text_within_bounds":  true
+                           },
+                           {
+                               "document":  "Validation-and-AI-Use",
+                               "page":  3,
+                               "text_within_bounds":  true
+                           },
+                           {
+                               "document":  "Validation-and-AI-Use",
+                               "page":  4,
+                               "text_within_bounds":  true
+                           },
+                           {
+                               "document":  "Validation-and-AI-Use",
+                               "page":  5,
+                               "text_within_bounds":  true
+                           }
+                       ],
+    "visual_review":  "Assistant inspected the final 10-page rendered contact sheet and both research-evolution pages on 2026-11-19. No clipping, overlap, orphan heading or table overflow observed. Decision memo remains two pages."
+}

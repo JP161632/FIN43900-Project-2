@@ -1,0 +1,9 @@
+{
+  "record": "docs/locked-prediction-input.json",
+  "collection_method": "Student supplied the lookback choice and prediction answers in chat; assistant transcribed the text verbatim into the input file at the student's request.",
+  "student_selected_new_lookback_months": 24,
+  "spelling_and_reasoning": "Preserved as submitted; no substantive correction or prediction feedback supplied.",
+  "authorship_status": "Student self-attestation retained; independent authorship and a fully AI-closed prediction setting are not independently verified.",
+  "execution_status_at_collection": "No personal scenario executed; no freeze or execution record created by the assistant.",
+  "next_step": "Student reviews the transcription, closes generative tools, freezes the prediction and executes the case using the prepared commands."
+}

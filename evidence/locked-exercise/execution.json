@@ -1,0 +1,929 @@
+{
+  "executed_at_utc": "2026-11-17T22:40:04.795932+00:00",
+  "precommit_sha256": "0cb8c7feb1b9e6a27078f2a93037e05356d51107c00d5849df9349d5c7a9a24a",
+  "snapshot_sha256": "13b2936d21cc2c64a4e2d449a48eceeb53a8a95d897fa94c58f9364b1aae8742",
+  "preserved_prediction": {
+    "new_lookback_months": 24,
+    "expected_output_direction": "I predict higherand i expect the realized net volatility to be higher than the 36-month version.",
+    "finance_reasoning": "When you cut back the lookback windown from 36 to 24 months, I lose a lot of meaningful data. This increases the liklihood of error. With fewer observations in an already volatile tech portfolio, the optimizer becomes more susceptible to noise in the short term. This will make the quarterly targets jump around way more aggresively.",
+    "expected_decision_effect": "I do not expect this change to alter the current recommendation. The optimizer is already trailing equal weight by a ton. With higher volatility and more drawdown, the lookback isnt going to fix the structure of the model completely. With this being said i dont think we can suggest deploying real capital",
+    "authorship_attestation": "yes this was all done myself"
+  },
+  "before": {
+    "summary": {
+      "rule": "candidate",
+      "cost_bps_one_way": 10,
+      "target_cap": 1.0,
+      "lookback_months": 36,
+      "months": 24,
+      "start": "2024-10-31",
+      "end": "2026-09-30",
+      "gross_total_return": 0.2516767092939003,
+      "net_total_return": 0.2485077964486806,
+      "net_cagr": 0.11736645575598015,
+      "net_volatility": 0.29611106246961294,
+      "max_drawdown_month_end": -0.2814052844043755,
+      "traded_nav_sum": 2.5341980561055597,
+      "max_target_change_points": 20.0,
+      "infeasible_rebalances": 0,
+      "max_start_equity_weight": 0.95
+    },
+    "monthly": [
+      {
+        "date": "2024-10-31",
+        "training_end": "2024-09-30",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.85,
+          "TSM": 0.0,
+          "QCOM": 0.15
+        },
+        "gross_return": -0.0537315786286279,
+        "net_return": -0.054676901726900984,
+        "cost_fraction_nav": 0.000999000999000999,
+        "dollars_traded_fraction_nav": 0.999000999000999,
+        "target_change_points": 0.0,
+        "net_wealth": 0.945323098273099
+      },
+      {
+        "date": "2024-11-29",
+        "training_end": "2024-10-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8482688731122202,
+          "TSM": 0.0,
+          "QCOM": 0.15173112688777973
+        },
+        "gross_return": 0.03353456422484272,
+        "net_return": 0.0335345642248428,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.9770240964253656
+      },
+      {
+        "date": "2024-12-31",
+        "training_end": "2024-11-29",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8570162334576521,
+          "TSM": 0.0,
+          "QCOM": 0.14298376654234787
+        },
+        "gross_return": -0.00767035909102951,
+        "net_return": -0.007670359091029533,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.9695299707651943
+      },
+      {
+        "date": "2025-01-31",
+        "training_end": "2024-12-31",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.95,
+          "TSM": 0.0,
+          "QCOM": 0.05
+        },
+        "gross_return": -0.008229842548118987,
+        "net_return": -0.008408907464531157,
+        "cost_fraction_nav": 0.0001805508212429517,
+        "dollars_traded_fraction_nav": 0.18055082124295171,
+        "target_change_points": 10.0,
+        "net_wealth": 0.9613772829569402
+      },
+      {
+        "date": "2025-02-28",
+        "training_end": "2025-01-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.9432479566799905,
+          "TSM": 0.0,
+          "QCOM": 0.05675204332000942
+        },
+        "gross_return": -0.04442832823351114,
+        "net_return": -0.04442832823351117,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.9186648974734881
+      },
+      {
+        "date": "2025-03-31",
+        "training_end": "2025-02-28",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.9460219095649446,
+          "TSM": 0.0,
+          "QCOM": 0.05397809043505538
+        },
+        "gross_return": -0.05241065767347217,
+        "net_return": -0.052410657673472194,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.8705170660153697
+      },
+      {
+        "date": "2025-04-30",
+        "training_end": "2025-03-31",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.9,
+          "TSM": 0.05,
+          "QCOM": 0.05
+        },
+        "gross_return": 0.046170010639825405,
+        "net_return": 0.046065299398644566,
+        "cost_fraction_nav": 0.00010009008107296557,
+        "dollars_traded_fraction_nav": 0.10009008107296558,
+        "target_change_points": 5.0,
+        "net_wealth": 0.9106176952929974
+      },
+      {
+        "date": "2025-05-30",
+        "training_end": "2025-04-30",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.9058169149190398,
+          "TSM": 0.04799204272408076,
+          "QCOM": 0.04619104235687936
+        },
+        "gross_return": 0.15777905825066083,
+        "net_return": 0.15777905825066085,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.0542940976827138
+      },
+      {
+        "date": "2025-06-30",
+        "training_end": "2025-05-30",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.9129057753765198,
+          "TSM": 0.0480740560060396,
+          "QCOM": 0.03902016861744057
+        },
+        "gross_return": 0.08596114774392549,
+        "net_return": 0.08596114774392549,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.1449224283791661
+      },
+      {
+        "date": "2025-07-31",
+        "training_end": "2025-06-30",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8,
+          "TSM": 0.0,
+          "QCOM": 0.2
+        },
+        "gross_return": 0.042347207187897286,
+        "net_return": 0.04201272056867089,
+        "cost_fraction_nav": 0.0003208975060514826,
+        "dollars_traded_fraction_nav": 0.32089750605148254,
+        "target_change_points": 15.000000000000002,
+        "net_wealth": 1.1930237344354642
+      },
+      {
+        "date": "2025-08-29",
+        "training_end": "2025-07-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8231852080704768,
+          "TSM": 0.0,
+          "QCOM": 0.17681479192952332
+        },
+        "gross_return": -0.023251543134396813,
+        "net_return": -0.023251543134396813,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.165284091613879
+      },
+      {
+        "date": "2025-09-30",
+        "training_end": "2025-08-29",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8017445829741068,
+          "TSM": 0.0,
+          "QCOM": 0.19825541702589336
+        },
+        "gross_return": 0.02592915799023093,
+        "net_return": 0.02592915799023099,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.195498926928838
+      },
+      {
+        "date": "2025-10-31",
+        "training_end": "2025-09-30",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.75,
+          "TSM": 0.0,
+          "QCOM": 0.25
+        },
+        "gross_return": 0.021647388164746456,
+        "net_return": 0.02154752719434283,
+        "cost_fraction_nav": 9.774504546349807e-05,
+        "dollars_traded_fraction_nav": 0.09774504546349808,
+        "target_change_points": 5.000000000000004,
+        "net_wealth": 1.2212589725676448
+      },
+      {
+        "date": "2025-11-28",
+        "training_end": "2025-10-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7339099585920221,
+          "TSM": 0.0,
+          "QCOM": 0.26609004140797776
+        },
+        "gross_return": -0.054104513543632306,
+        "net_return": -0.05410451354363233,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.1551833499460762
+      },
+      {
+        "date": "2025-12-31",
+        "training_end": "2025-11-28",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7386101155601121,
+          "TSM": 0.0,
+          "QCOM": 0.2613898844398877
+        },
+        "gross_return": -0.006633107721115475,
+        "net_return": -0.006633107721115472,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.147520894348245
+      },
+      {
+        "date": "2026-01-30",
+        "training_end": "2025-12-31",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.75,
+          "TSM": 0.0,
+          "QCOM": 0.25
+        },
+        "gross_return": -0.11114630920892515,
+        "net_return": -0.11118031257855587,
+        "cost_fraction_nav": 3.825530566278086e-05,
+        "dollars_traded_fraction_nav": 0.03825530566278085,
+        "target_change_points": 0.0,
+        "net_wealth": 1.019939162624183
+      },
+      {
+        "date": "2026-02-27",
+        "training_end": "2026-01-30",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7507373702418733,
+          "TSM": 0.0,
+          "QCOM": 0.24926262975812666
+        },
+        "gross_return": -0.07912750628064254,
+        "net_return": -0.07912750628064258,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.9392339201277645
+      },
+      {
+        "date": "2026-03-31",
+        "training_end": "2026-02-27",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7458002327831266,
+          "TSM": 0.0,
+          "QCOM": 0.2541997672168734
+        },
+        "gross_return": -0.06563186736114449,
+        "net_return": -0.06563186736114446,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.8775902440608513
+      },
+      {
+        "date": "2026-04-30",
+        "training_end": "2026-03-31",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.65,
+          "TSM": 0.15,
+          "QCOM": 0.2
+        },
+        "gross_return": 0.17072775173165458,
+        "net_return": 0.17037628738108967,
+        "cost_fraction_nav": 0.00030021014710297203,
+        "dollars_traded_fraction_nav": 0.300210147102972,
+        "target_change_points": 15.0,
+        "net_wealth": 1.0271108116858034
+      },
+      {
+        "date": "2026-05-29",
+        "training_end": "2026-04-30",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.6116206401531717,
+          "TSM": 0.15015639780089543,
+          "QCOM": 0.2382229620459329
+        },
+        "gross_return": 0.16840528454595607,
+        "net_return": 0.16840528454595605,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.200081700187979
+      },
+      {
+        "date": "2026-06-30",
+        "training_end": "2026-05-29",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.5792237855125488,
+          "TSM": 0.13577909768607513,
+          "QCOM": 0.28499711680137607
+        },
+        "gross_return": -0.15421535792535548,
+        "net_return": -0.15421535792535546,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.0150106712538207
+      },
+      {
+        "date": "2026-07-31",
+        "training_end": "2026-06-30",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.65,
+          "TSM": 0.35,
+          "QCOM": 0.0
+        },
+        "gross_return": 0.10605584988878461,
+        "net_return": 0.10550564445189914,
+        "cost_fraction_nav": 0.0004974481505079099,
+        "dollars_traded_fraction_nav": 0.4974481505079098,
+        "target_change_points": 20.0,
+        "net_wealth": 1.1221000262500098
+      },
+      {
+        "date": "2026-08-31",
+        "training_end": "2026-07-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7321424015790562,
+          "TSM": 0.26785759842094375,
+          "QCOM": 0.0
+        },
+        "gross_return": 0.07590639613989274,
+        "net_return": 0.0759063961398927,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.207274595351127
+      },
+      {
+        "date": "2026-09-30",
+        "training_end": "2026-08-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7442225281845193,
+          "TSM": 0.2557774718154806,
+          "QCOM": 0.0
+        },
+        "gross_return": 0.0341539540849539,
+        "net_return": 0.03415395408495381,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.2485077964486806
+      }
+    ]
+  },
+  "after": {
+    "summary": {
+      "rule": "candidate",
+      "cost_bps_one_way": 10,
+      "target_cap": 1.0,
+      "lookback_months": 24,
+      "months": 24,
+      "start": "2024-10-31",
+      "end": "2026-09-30",
+      "gross_total_return": 0.2587522853619624,
+      "net_total_return": 0.2551931241608214,
+      "net_cagr": 0.12035401733595852,
+      "net_volatility": 0.27825264385343795,
+      "max_drawdown_month_end": -0.28127127505678406,
+      "traded_nav_sum": 2.830732986038093,
+      "max_target_change_points": 25.0,
+      "infeasible_rebalances": 0,
+      "max_start_equity_weight": 0.9049390457747295
+    },
+    "monthly": [
+      {
+        "date": "2024-10-31",
+        "training_end": "2024-09-30",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.9,
+          "TSM": 0.0,
+          "QCOM": 0.1
+        },
+        "gross_return": -0.05437397498442903,
+        "net_return": -0.055318656328100846,
+        "cost_fraction_nav": 0.0009990009990009994,
+        "dollars_traded_fraction_nav": 0.9990009990009991,
+        "target_change_points": 0.0,
+        "net_wealth": 0.9446813436718992
+      },
+      {
+        "date": "2024-11-29",
+        "training_end": "2024-10-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8987771979515654,
+          "TSM": 0.0,
+          "QCOM": 0.10122280204843452
+        },
+        "gross_return": 0.03708234497832816,
+        "net_return": 0.037082344978328186,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.9797123431525311
+      },
+      {
+        "date": "2024-12-31",
+        "training_end": "2024-11-29",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.9049390457747295,
+          "TSM": 0.0,
+          "QCOM": 0.09506095422527049
+        },
+        "gross_return": -0.006650828141215009,
+        "net_return": -0.006650828141214982,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.9731964447303966
+      },
+      {
+        "date": "2025-01-31",
+        "training_end": "2024-12-31",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8,
+          "TSM": 0.15,
+          "QCOM": 0.05
+        },
+        "gross_return": 0.0030472314961749285,
+        "net_return": 0.002746106539256221,
+        "cost_fraction_nav": 0.00030021014710297214,
+        "dollars_traded_fraction_nav": 0.30021014710297206,
+        "target_change_points": 15.0,
+        "net_wealth": 0.9758689458512516
+      },
+      {
+        "date": "2025-02-28",
+        "training_end": "2025-01-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.785383742985101,
+          "TSM": 0.1585022663952895,
+          "QCOM": 0.056113990619609574
+        },
+        "gross_return": -0.05960068887584763,
+        "net_return": -0.059600688875847574,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.9177064844259698
+      },
+      {
+        "date": "2025-03-31",
+        "training_end": "2025-02-28",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8004020514615003,
+          "TSM": 0.1453656348001764,
+          "QCOM": 0.05423231373832335
+        },
+        "gross_return": -0.055670985492027085,
+        "net_return": -0.05567098549202709,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.8666168600455525
+      },
+      {
+        "date": "2025-04-30",
+        "training_end": "2025-03-31",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.85,
+          "TSM": 0.05,
+          "QCOM": 0.1
+        },
+        "gross_return": 0.04184711105164286,
+        "net_return": 0.04165538092400922,
+        "cost_fraction_nav": 0.00018402904380098936,
+        "dollars_traded_fraction_nav": 0.18402904380098933,
+        "target_change_points": 10.0,
+        "net_wealth": 0.9027161154659188
+      },
+      {
+        "date": "2025-05-30",
+        "training_end": "2025-04-30",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8590434231305158,
+          "TSM": 0.04819117441963113,
+          "QCOM": 0.09276540244985287
+        },
+        "gross_return": 0.14898446749484007,
+        "net_return": 0.14898446749484018,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.0372067952276194
+      },
+      {
+        "date": "2025-06-30",
+        "training_end": "2025-05-30",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8723930109169566,
+          "TSM": 0.04864302465636246,
+          "QCOM": 0.07896396442668062
+        },
+        "gross_return": 0.08693173690505983,
+        "net_return": 0.08693173690505973,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.127372983466487
+      },
+      {
+        "date": "2025-07-31",
+        "training_end": "2025-06-30",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8,
+          "TSM": 0.0,
+          "QCOM": 0.2
+        },
+        "gross_return": 0.042347207187897286,
+        "net_return": 0.04209723130915033,
+        "cost_fraction_nav": 0.00023982016455070007,
+        "dollars_traded_fraction_nav": 0.23982016455070004,
+        "target_change_points": 10.0,
+        "net_wealth": 1.1748322647231626
+      },
+      {
+        "date": "2025-08-29",
+        "training_end": "2025-07-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8231852080704768,
+          "TSM": 0.0,
+          "QCOM": 0.17681479192952332
+        },
+        "gross_return": -0.023251543134396813,
+        "net_return": -0.023251543134396813,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.147515601644271
+      },
+      {
+        "date": "2025-09-30",
+        "training_end": "2025-08-29",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.8017445829741068,
+          "TSM": 0.0,
+          "QCOM": 0.19825541702589336
+        },
+        "gross_return": 0.02592915799023093,
+        "net_return": 0.02592915799023099,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.1772697149755602
+      },
+      {
+        "date": "2025-10-31",
+        "training_end": "2025-09-30",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7,
+          "TSM": 0.0,
+          "QCOM": 0.3
+        },
+        "gross_return": 0.026030947839392627,
+        "net_return": 0.025828024278261363,
+        "cost_fraction_nav": 0.000197775283053988,
+        "dollars_traded_fraction_nav": 0.19777528305398795,
+        "target_change_points": 10.000000000000009,
+        "net_wealth": 1.2076762657560107
+      },
+      {
+        "date": "2025-11-28",
+        "training_end": "2025-10-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.6820561449220577,
+          "TSM": 0.0,
+          "QCOM": 0.3179438550779424
+        },
+        "gross_return": -0.055285010348772624,
+        "net_return": -0.055285010348772645,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.1409098709057226
+      },
+      {
+        "date": "2025-12-31",
+        "training_end": "2025-11-28",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.6872819579684036,
+          "TSM": 0.0,
+          "QCOM": 0.3127180420315966
+        },
+        "gross_return": -0.0045870706004749965,
+        "net_return": -0.0045870706004750295,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.1356764367790992
+      },
+      {
+        "date": "2026-01-30",
+        "training_end": "2025-12-31",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7,
+          "TSM": 0.0,
+          "QCOM": 0.3
+        },
+        "gross_return": -0.11132108634518345,
+        "net_return": -0.11135897309095488,
+        "cost_fraction_nav": 4.263265977093356e-05,
+        "dollars_traded_fraction_nav": 0.042632659770933556,
+        "target_change_points": 0.0,
+        "net_wealth": 1.009208675015784
+      },
+      {
+        "date": "2026-02-27",
+        "training_end": "2026-01-30",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7008260170923443,
+          "TSM": 0.0,
+          "QCOM": 0.2991739829076557
+        },
+        "gross_return": -0.07791487474947541,
+        "net_return": -0.07791487474947545,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.9305763075058452
+      },
+      {
+        "date": "2026-03-31",
+        "training_end": "2026-02-27",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.6953015227199951,
+          "TSM": 0.0,
+          "QCOM": 0.30469847728000493
+        },
+        "gross_return": -0.06725368394837417,
+        "net_return": -0.06725368394837417,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 0.867991622631002
+      },
+      {
+        "date": "2026-04-30",
+        "training_end": "2026-03-31",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.6,
+          "TSM": 0.25,
+          "QCOM": 0.15
+        },
+        "gross_return": 0.1631189381878071,
+        "net_return": 0.16253708779351617,
+        "cost_fraction_nav": 0.0005002501250625313,
+        "dollars_traded_fraction_nav": 0.5002501250625313,
+        "target_change_points": 25.0,
+        "net_wealth": 1.0090724532026139
+      },
+      {
+        "date": "2026-05-29",
+        "training_end": "2026-04-30",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.5682661837660703,
+          "TSM": 0.2518978014398922,
+          "QCOM": 0.17983601479403752
+        },
+        "gross_return": 0.1463116345517482,
+        "net_return": 0.14631163455174812,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.1567114932118305
+      },
+      {
+        "date": "2026-06-30",
+        "training_end": "2026-05-29",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.548538203468415,
+          "TSM": 0.23216901900299247,
+          "QCOM": 0.2192927775285927
+        },
+        "gross_return": -0.1179195855716624,
+        "net_return": -0.11791958557166238,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.0203125533063127
+      },
+      {
+        "date": "2026-07-31",
+        "training_end": "2026-06-30",
+        "rebalance": true,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.65,
+          "TSM": 0.35,
+          "QCOM": 0.0
+        },
+        "gross_return": 0.10605584988878461,
+        "net_return": 0.10564991128361534,
+        "cost_fraction_nav": 0.00036701456369497994,
+        "dollars_traded_fraction_nav": 0.3670145636949799,
+        "target_change_points": 15.0,
+        "net_wealth": 1.1281084840446836
+      },
+      {
+        "date": "2026-08-31",
+        "training_end": "2026-07-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7321424015790562,
+          "TSM": 0.26785759842094375,
+          "QCOM": 0.0
+        },
+        "gross_return": 0.07590639613989274,
+        "net_return": 0.0759063961398927,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.2137391335233532
+      },
+      {
+        "date": "2026-09-30",
+        "training_end": "2026-08-31",
+        "rebalance": false,
+        "infeasible_at_rebalance": false,
+        "start_weights": {
+          "NVDA": 0.0,
+          "MSFT": 0.7442225281845193,
+          "TSM": 0.2557774718154806,
+          "QCOM": 0.0
+        },
+        "gross_return": 0.0341539540849539,
+        "net_return": 0.03415395408495381,
+        "cost_fraction_nav": 0.0,
+        "dollars_traded_fraction_nav": 0.0,
+        "target_change_points": 0.0,
+        "net_wealth": 1.2551931241608214
+      }
+    ]
+  },
+  "differences": {
+    "net_total_return": 0.0066853277121408095,
+    "net_cagr": 0.0029875615799783706,
+    "net_volatility": -0.017858418616174987,
+    "max_drawdown_month_end": 0.00013400934759144612,
+    "max_target_change_points": 5.0,
+    "infeasible_rebalances": 0
+  },
+  "student_interpretation_status": "Pending actual decision effect and prediction reconciliation."
+}

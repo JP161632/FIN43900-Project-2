@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-11-19T16:19:19.323809+00:00",
+  "passed": true,
+  "method": "New venv without system-site-packages; requirements installed from package index; isolated copied project and unrelated working directory.",
+  "first_failure": "Existing course environment had no pip module; initial sandbox package download was denied.",
+  "resolution": "Created a new venv with ensurepip and installed pinned requirements with approved network access.",
+  "remaining_limit": "Automated clean installation and replay, not an observed unaided human reviewer or evidence of student code ownership.",
+  "elapsed_seconds": 23.387,
+  "material_output_comparisons": {
+    "visible_output.json": true,
+    "review_evidence.json": true
+  },
+  "dependency_check": "No broken requirements found.\n",
+  "commands": [
+    {
+      "script": "analysis.py",
+      "exit_code": 0,
+      "stdout": "Continue paper research only; do not approve capital deployment.\nequal_10bps: net cumulative 70.97%; annual volatility 27.79%; max drawdown -14.59%\ninverse_vol_10bps: net cumulative 62.16%; annual volatility 27.14%; max drawdown -16.62%\ncandidate_10bps: net cumulative 24.85%; annual volatility 29.61%; max drawdown -28.14%\n",
+      "stderr": ""
+    },
+    {
+      "script": "review_analysis.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"source_checks\": {\n    \"monthly_prices_reconstructed\": 244,\n    \"price_months\": 61,\n    \"return_months\": 60,\n    \"missing_prices\": 0,\n    \"filled_prices\": 0\n  },\n  \"capacity_proxy\": {\n    \"illustrative_pretrade_nav_usd\": 1000000,\n    \"participation_threshold\": 0.01,\n    \"lookback_sessions\": 20,\n    \"max_participation_fraction\": 0.0001740052085767023,\n    \"minimum_hypothetical_nav_at_threshold_usd\": 57469544.054435335,\n    \"limitation\": \"Historical close times raw volume proxy, not an executable capacity estimate; fixed $1m pretrade NAV is illustrative. Same-boundary timing, spreads, impact, routing and source revisions remain unverified.\"\n  },\n  \"monitoring\": {\n    \"target_breach_count\": 1,\n    \"volatility_breach_count\": 9,\n    \"unavailable_volatility_months\": 11,\n    \"interpretation\": \"Diagnostic application of accepted limits to past returns; the replay was not halted or retuned at these breaches.\"\n  },\n  \"subperiods\": {\n    \"equal\": {\n      \"first_12\": {\n        \"months\": 12,\n        \"start\": \"2024-10-31\",\n        \"end\": \"2025-09-30\",\n        \"net_total_return\": 0.3428628742202744,\n        \"net_volatility\": 0.2278281566577565,\n        \"month_end_max_drawdown\": -0.1268954434256665\n      },\n      \"last_12\": {\n        \"months\": 12,\n        \"start\": \"2025-10-31\",\n        \"end\": \"2026-09-30\",\n        \"net_total_return\": 0.27314745572774135,\n        \"net_volatility\": 0.33089880440058855,\n        \"month_end_max_drawdown\": -0.1458936605515624\n      }\n    },\n    \"inverse_vol\": {\n      \"first_12\": {\n        \"months\": 12,\n        \"start\": \"2024-10-31\",\n        \"end\": \"2025-09-30\",\n        \"net_total_return\": 0.3055881512151941,\n        \"net_volatility\": 0.2127658962339223,\n        \"month_end_max_drawdown\": -0.12294498439695012\n      },\n      \"last_12\": {\n        \"months\": 12,\n        \"start\": \"2025-10-31\",\n        \"end\": \"2026-09-30\",\n        \"net_total_return\": 0.24207346628249793,\n        \"net_volatility\": 0.3297526907498493,\n        \"month_end_max_drawdown\": -0.16621330871855755\n      }\n    },\n    \"candidate\": {\n      \"first_12\": {\n        \"months\": 12,\n        \"start\": \"2024-10-31\",\n        \"end\": \"2025-09-30\",\n        \"net_total_return\": 0.19549892692883808,\n        \"net_volatility\": 0.21658546099096332,\n        \"month_end_max_drawdown\": -0.1294829339846303\n      },\n      \"last_12\": {\n        \"months\": 12,\n        \"start\": \"2025-10-31\",\n        \"end\": \"2026-09-30\",\n        \"net_total_return\": 0.04434037398596358,\n        \"net_volatility\": 0.36879717478792384,\n        \"month_end_max_drawdown\": -0.2814052844043754\n      }\n    }\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "tests.py",
+      "exit_code": 0,
+      "stdout": "test_all_244_prices_reconstruct_from_raw_sources (__main__.FinanceAudit.test_all_244_prices_reconstruct_from_raw_sources) ... ok\ntest_bad_prices_missing_and_duplicate_months (__main__.FinanceAudit.test_bad_prices_missing_and_duplicate_months) ... ok\ntest_cash_fallback_and_rule_rejection (__main__.FinanceAudit.test_cash_fallback_and_rule_rejection) ... ok\ntest_costs_and_wealth_accounting (__main__.FinanceAudit.test_costs_and_wealth_accounting) ... ok\ntest_covariance_independent_sample_formula (__main__.FinanceAudit.test_covariance_independent_sample_formula) ... ok\ntest_first_month_manual_and_drift (__main__.FinanceAudit.test_first_month_manual_and_drift) ... ok\ntest_future_return_changes_cannot_change_prior_weights (__main__.FinanceAudit.test_future_return_changes_cannot_change_prior_weights) ... ok\ntest_grid_and_infeasible_bounds (__main__.FinanceAudit.test_grid_and_infeasible_bounds) ... ok\ntest_independent_known_answer (__main__.FinanceAudit.test_independent_known_answer) ... ok\ntest_locked_record_safeguards_with_synthetic_prediction_only (__main__.FinanceAudit.test_locked_record_safeguards_with_synthetic_prediction_only) ... ok\ntest_source_corruption_is_rejected (__main__.FinanceAudit.test_source_corruption_is_rejected) ... ok\ntest_trade_fee_independent_exact_answers (__main__.FinanceAudit.test_trade_fee_independent_exact_answers) ... ok\ntest_uncertainty_reproducible_and_descriptive (__main__.FinanceAudit.test_uncertainty_reproducible_and_descriptive) ... ok\ntest_variable_lookback_uses_only_synthetic_training_windows (__main__.FinanceAudit.test_variable_lookback_uses_only_synthetic_training_windows) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 1.772s\n\nOK\n\n",
+      "stderr": ""
+    },
+    {
+      "script": "test_review.py",
+      "exit_code": 0,
+      "stdout": "test_constraint_violation_is_rejected (__main__.ReviewAudit.test_constraint_violation_is_rejected) ... ok\ntest_liquidity_dollars_and_nav_scaling (__main__.ReviewAudit.test_liquidity_dollars_and_nav_scaling) ... ok\ntest_monitoring_warmup_and_strict_threshold (__main__.ReviewAudit.test_monitoring_warmup_and_strict_threshold) ... ok\ntest_replay_periods_reconcile_and_all_targets_pass (__main__.ReviewAudit.test_replay_periods_reconcile_and_all_targets_pass) ... ok\ntest_subperiod_compounding_known_answer (__main__.ReviewAudit.test_subperiod_compounding_known_answer) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.192s\n\nOK\n\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_app.py",
+      "exit_code": 0,
+      "stdout": "10 interface checks passed.\n",
+      "stderr": "2026-11-19 11:19:11.084 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n2026-11-19 11:19:15.610 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n2026-11-19 11:19:16.213 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n"
+    }
+  ]
+}

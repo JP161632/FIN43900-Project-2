@@ -1,0 +1,12 @@
+{
+  "prediction_source": "Student answers supplied in chat and transcribed verbatim before execution.",
+  "freeze_operator": "Codex assistant, at the student's explicit request.",
+  "execution_operator": "Codex assistant, at the student's explicit request.",
+  "prediction_changed_after_result": false,
+  "ai_closed_student_execution_claimed": false,
+  "formal_requirement_status": "Prediction and execution evidence exist; the required AI-closed student execution is not established. Do not present this run as satisfying that condition without instructor acceptance.",
+  "student_reconciliation_status": "Student supplied a post-result reflection in chat; original wording retained with a separate unit correction and claim-limit notes in student-reconciliation.md.",
+  "later_student_rerun_status": "AI-closed student rerun self-reported by the student, with matching results reported. Generated student-rerun.json was not present in this workspace at review; no independent matching-result verification claimed.",
+  "scope_note": "Original operator and execution-mode fields above describe the first execution only. The later student self-report is retained separately in student-rerun-attestation.json.",
+  "preserved_records": ["precommit.json", "snapshot.zip", "execution.json", "student-reconciliation.md"]
+}

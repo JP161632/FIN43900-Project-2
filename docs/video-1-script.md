@@ -1,0 +1,50 @@
+VIDEO 1: RESEARCH EVOLUTION
+REHEARSAL SCRIPT - not a transcript of a completed recording.
+Maximum duration: 3 minutes.
+Open recording/START-HERE.html in a web browser. Select this video.
+The white evidence panel is what you record. The narration panel is what you read.
+Click Next screen when each paragraph ends. No file switching is required.
+
+SCREEN 1: Edition A: my starting position
+
+DO THIS (do not read aloud): Point at the weights, then the 20-percentage-point warning. Stay on this screen for the whole paragraph.
+
+SAY THIS:
+This project asks whether an optimized portfolio of NVIDIA, Microsoft, TSM and Qualcomm is ready for investment use. I use my earlier portfolio results as a retrospective Edition A baseline. The starting allocation was mostly Microsoft and TSM, and the position was a provisional pilot with monitoring. But there was already a warning: changing the estimation window moved one asset's weight by twenty percentage points. The apparently stable TSM stress did not resolve that concern.
+
+THEN: Click Next screen.
+
+----------------------------------------------------------------
+
+SCREEN 2: Edition B changed the recommendation
+
+DO THIS (do not read aloud): Point to optimized versus equal-weight return, then their volatility columns. These returns are cumulative, not annual.
+
+SAY THIS:
+Edition B adds a rolling comparison with equal weight and inverse volatility, using the same stocks, evaluation months and trading-cost assumptions. This table changed my recommendation. The optimized portfolio returned twenty-four point eight-five percent cumulatively, while equal weight returned seventy point nine-seven percent. The optimized portfolio also had higher realized volatility and a larger drawdown. I therefore moved from a provisional pilot position to no capital deployment and further paper research only.
+
+THEN: Click Next screen.
+
+----------------------------------------------------------------
+
+SCREEN 3: More checks strengthened that decision
+
+DO THIS (do not read aloud): Show both table rows, then point to the two monitoring counts. No scrolling or app switching is needed.
+
+SAY THIS:
+I also checked whether the conclusion depended on one part of the sample. The optimized portfolio trails equal weight in both twelve-month segments. Applying the accepted monitoring limits flags one excessive target change and nine trailing-volatility months. These are diagnostic results; they do not mean a live kill rule was executed. I kept the failures visible instead of changing the thresholds to make the strategy pass.
+
+THEN: Click Next screen.
+
+----------------------------------------------------------------
+
+SCREEN 4: My prediction was only partly supported
+
+DO THIS (do not read aloud): Point to the first two rows. Finish the paragraph, then stop the screen recorder. Video 1 is finished.
+
+SAY THIS:
+My changed-input prediction was only partly supported. Shortening the window to twenty-four months increased the largest quarterly target change from twenty to twenty-five percentage points. But realized net volatility fell from twenty-nine point six-one to twenty-seven point eight-three percent, so my volatility prediction was wrong. This taught me to separate allocation instability from realized risk. The result does not establish a durable improvement, and my recommendation remains unchanged.
+
+THEN: Stop your screen recorder.
+
+----------------------------------------------------------------

@@ -1,0 +1,13 @@
+{
+  "label": "AI-closed student rerun - self-reported",
+  "source": "Student's subsequent chat message after receiving the personal-rerun instructions.",
+  "student_reports_completion": true,
+  "student_reports_tools_closed": true,
+  "student_reports_matching_results": true,
+  "student_reports_own_prediction_reasoning": true,
+  "execution_timestamp": null,
+  "generated_student_rerun_file_present_at_review": false,
+  "matching_result_independently_verified": false,
+  "timeline": "Student reports this later rerun after reviewing the original result. It does not replace the original preserved prediction or execution.",
+  "scope": "Credits the student's stated personal activity without independently certifying tool state, authorship or a missing result file."
+}

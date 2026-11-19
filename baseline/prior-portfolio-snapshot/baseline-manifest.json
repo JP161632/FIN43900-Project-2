@@ -1,0 +1,42 @@
+{
+  "preserved_at_utc": "2026-11-17T22:21:12.990282+00:00",
+  "purpose": "Student-selected retrospective comparison baseline",
+  "checkpoint_status": "Original Project 2 Edition A submission and receipt not established; instructor acceptance of substitute unverified.",
+  "files": [
+    {
+      "original_path": "projects/lab-15-portfolio-stability/lab-15-writeup.md",
+      "preserved_file": "lab-15-writeup.md",
+      "sha256": "38153bd634a96d1600d729d464b66f27ec3ebf6dfcf74f1d727dd37823a5e64c"
+    },
+    {
+      "original_path": "projects/lab-15-portfolio-stability/personal-results.json",
+      "preserved_file": "personal-results.json",
+      "sha256": "08d4591cb85bc772db6df444f8a509650b3f9f70b43689b45a3f38b66a18495e"
+    },
+    {
+      "original_path": "projects/lab-15-portfolio-stability/personal-results.md",
+      "preserved_file": "personal-results.md",
+      "sha256": "68069f97a0ee46bcb71bc0eb7e82f9b357ee9232c69867424ed4281cb14c12fd"
+    },
+    {
+      "original_path": "projects/lab-15-portfolio-stability/portfolio.py",
+      "preserved_file": "portfolio.py",
+      "sha256": "26ddfbcd9b5da5a344ff8c492eb9eff9effe640a69d7d756fd93bc973d88531a"
+    },
+    {
+      "original_path": "projects/lab-15-portfolio-stability/analyze_personal.py",
+      "preserved_file": "analyze_personal.py",
+      "sha256": "93bfa3de2d5adc9900db15c9b2ae765aebc9ad305706dd4f81af447cfe136281"
+    },
+    {
+      "original_path": "projects/lab-15-portfolio-stability/prices.csv",
+      "preserved_file": "prices.csv",
+      "sha256": "f6d3e15f62efda6f28221339e9e973dbb78bdb4cee7f5c6ae39d8e23505c8389"
+    },
+    {
+      "original_path": "projects/lab-15-portfolio-stability/price-provenance.json",
+      "preserved_file": "price-provenance.json",
+      "sha256": "d6a6c0577b35f03879fb608a92cb059978d9afbc282e4f180f1c11e8025f2740"
+    }
+  ]
+}

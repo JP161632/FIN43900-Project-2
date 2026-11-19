@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "Initial page executes without exceptions",
+    "Committee action displayed",
+    "Default candidate net cumulative return reconciles to frozen output",
+    "Cost selection renders the 50-bps computed scenario",
+    "Concentration and uncertainty evidence rendered",
+    "Model-risk review section rendered",
+    "Preserved changed-input comparison reconciles with original execution",
+    "Diagnostic monitoring counts displayed correctly",
+    "Missing output gives an actionable error without a page crash",
+    "Malformed output gives a controlled error without fabricated results"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "new_lookback_months": 30,
+  "expected_output_direction": "WRITE YOUR own prediction with generative tools closed.",
+  "finance_reasoning": "WRITE YOUR own finance reasoning with generative tools closed.",
+  "expected_decision_effect": "WRITE YOUR own expected decision effect with generative tools closed.",
+  "authorship_attestation": "WRITE YOUR own truthful authorship and tools-closed statement."
+}

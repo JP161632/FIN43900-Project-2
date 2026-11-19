@@ -1,0 +1,28 @@
+{
+  "precommitted_at_utc": "2026-11-17T22:39:57.225144+00:00",
+  "input": "rolling estimation lookback",
+  "old_value": 36,
+  "units": "monthly returns",
+  "prediction": {
+    "new_lookback_months": 24,
+    "expected_output_direction": "I predict higherand i expect the realized net volatility to be higher than the 36-month version.",
+    "finance_reasoning": "When you cut back the lookback windown from 36 to 24 months, I lose a lot of meaningful data. This increases the liklihood of error. With fewer observations in an already volatile tech portfolio, the optimizer becomes more susceptible to noise in the short term. This will make the quarterly targets jump around way more aggresively.",
+    "expected_decision_effect": "I do not expect this change to alter the current recommendation. The optimizer is already trailing equal weight by a ton. With higher volatility and more drawdown, the lookback isnt going to fix the structure of the model completely. With this being said i dont think we can suggest deploying real capital",
+    "authorship_attestation": "yes this was all done myself"
+  },
+  "files": {
+    "analysis.py": "bebb984378c17b4bbeaab9cf81f24ac3402313b39b3b245bd38426e0c9b9cd28",
+    "vendor/portfolio.py": "26ddfbcd9b5da5a344ff8c492eb9eff9effe640a69d7d756fd93bc973d88531a",
+    "locked_exercise.py": "8bdc1f233f530feb5a55e5988be99892c7317246a7bc33b93a4ecefe3c3fb5eb",
+    "requirements.txt": "15349f7e5113c11412071c7ef49a09829163b72ace8976c52f59b36069d0865e",
+    "docs/research-design.md": "e4017d8cb213b57af2d7d41a539da2a5db9a8a1cd36d760d82914a59fe601e38",
+    "data/prices.csv": "f6d3e15f62efda6f28221339e9e973dbb78bdb4cee7f5c6ae39d8e23505c8389",
+    "data/price-provenance.json": "d6a6c0577b35f03879fb608a92cb059978d9afbc282e4f180f1c11e8025f2740",
+    "data/sources/MSFT-yahoo-daily.json": "8c4cb5ef8c4a2308e231718d17334ebf199ff6eebddca9b8a8da25c4060d16a2",
+    "data/sources/NVDA-yahoo-daily.json": "be377e73a67090583ef26d9411da590a835af38a6e2047108797f6fff5eb05f8",
+    "data/sources/QCOM-yahoo-daily.json": "199f158f3b12d016c6359badd304a462af83d940e7258487c57dddc2dc058725",
+    "data/sources/TSM-yahoo-daily.json": "a00fa16ce9f7b2d326b36a8a60fa11c08fffb86dc9feeb1b07a99ad25f12e9ac"
+  },
+  "limitations": "Local clock and hashes are not an externally authenticated timestamp or proof of authorship.",
+  "snapshot_sha256": "13b2936d21cc2c64a4e2d449a48eceeb53a8a95d897fa94c58f9364b1aae8742"
+}

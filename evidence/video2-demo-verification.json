@@ -1,0 +1,17 @@
+{
+  "verified_date": "2026-11-18",
+  "working_directory": "projects/project-2",
+  "command": "& ..\\..\\.venv\\Scripts\\python.exe .\\recording\\video2_demo.py",
+  "exit_code": 0,
+  "tests_run": 4,
+  "failures": 0,
+  "errors": 0,
+  "observed_result": "Ran 4 tests in 1.337s; OK",
+  "checks": [
+    "test_independent_known_answer",
+    "test_trade_fee_independent_exact_answers",
+    "test_source_corruption_is_rejected",
+    "test_first_month_manual_and_drift"
+  ],
+  "scope": "Preparation check of the recording command. Not a student recording, locked-exercise execution or AI-closed activity. The runner does not rewrite saved project results or the locked record."
+}

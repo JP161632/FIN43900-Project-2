@@ -1,0 +1,15 @@
+VIDEO 1 REPLACEMENT - AI-ASSISTED PREPARATION, NOT AN ACTUAL TRANSCRIPT
+Maximum 3:00. Aim for 2:30. Show VIDEO-1-FINAL-EVIDENCE.html and a small webcam view.
+Review and understand every claim before recording. This does not invent an original checkpoint or an AI-closed run.
+
+My project asks whether a four-stock minimum-estimated-volatility process deserves adoption over equal weight and inverse volatility. The intended user is a committee evaluating a thematic research sleeve, not a client's whole portfolio.
+
+My retrospective Edition A comparison uses preserved earlier portfolio work. It supported a provisional monitored pilot, but changing the estimation window moved one weight by twenty percentage points. The original Brightspace checkpoint receipt remains unresolved; I am not claiming this later comparison establishes that submission.
+
+Edition B changed my recommendation to no capital deployment and further paper research only. The drivers were mixed: course and lab discipline, my review of the assumptions, and Codex-assisted implementation and validation. The same four stocks, evaluation months and ten-basis-point cost convention make the comparison informative. The candidate returned twenty-four point eight-five percent cumulatively, versus seventy point nine-seven percent for equal weight, with higher realized volatility and a larger drawdown.
+
+Here is one specific AI-output check. Codex helped implement the optimizer. I checked its risk arithmetic against four uncorrelated assets with equal weights and twenty percent volatility each. The independent answer is twenty percent divided by the square root of four: ten percent. The executed test checks that result and the optimizer's equal-weight allocation. I accept that numerical implementation on this fixture. I reject deployment based solely on minimum estimated risk, because the rolling comparison fails to demonstrate the promised investment benefit. Passing arithmetic and earning an investment mandate are separate questions.
+
+My preserved shorter-window prediction was only partly supported. Reducing the window from thirty-six to twenty-four monthly returns increased the largest target change from twenty to twenty-five percentage points, but realized net volatility fell from twenty-nine point six-one to twenty-seven point eight-three percent. My volatility prediction was wrong. Allocation instability is different from realized return risk. The original execution history is disclosed; this is not presented as a new unseen test.
+
+The data were already inspected, so this is retrospective chronological evidence. My decision remains paper research only, pending independent prospective and implementation evidence.

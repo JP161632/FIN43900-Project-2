@@ -1,0 +1,48 @@
+PROJECT 2: EASY RECORDING GUIDE
+
+This replaces the old instructions that sent you between many files.
+
+1. Open START-HERE.html in Edge or Chrome. If it opens in Word, right-click it,
+   choose Open with, and choose Microsoft Edge.
+2. Select "Start with Video 3". It opens screen 1 with the matching words beside it.
+3. Maximize the browser. The WHITE PANEL ON THE LEFT is what the audience should see.
+   The panel on the RIGHT is what you read. It is okay to scroll the right panel;
+   the white evidence panel stays fixed.
+4. In your screen recorder, choose an AREA/REGION covering ONLY the white panel.
+   Leave the narration and the top navigation controls outside that rectangle.
+5. Enable your microphone. Make and replay a 15-second test before the full video.
+6. Start recording. Read the paragraph on the right. Point to the indicated evidence.
+7. When the paragraph ends, click NEXT SCREEN at the top. Both panels update together.
+   Do not resize the browser or change the recording rectangle between screens.
+8. On the last screen, finish the paragraph and STOP YOUR SCREEN RECORDER.
+9. Record Video 1 using the same process. Video 2 uses a DIFFERENT process below.
+
+If your recorder cannot capture a region: choose HIDE NARRATION, record the evidence
+view, and read the matching VIDEO-N-READ-ALOUD.txt from paper or another device.
+Those .txt files are plain text and open in Notepad without a conversion prompt.
+
+WHAT EACH VIDEO NOW CONTAINS
+Video 3: five screens for the decision, comparison, concentration, limits and next steps.
+Video 1: four screens for Edition A, what changed, extra checks and your reflection.
+Video 2: open VIDEO-2-START-HERE.html for the actual repository walkthrough and live test.
+
+Videos 1 and 3 need only this evidence guide. For Video 2, record VS Code showing
+README.md, analysis.py, tests.py and a live four-test demonstration in its terminal.
+The separate Video 2 page gives every shortcut, the command and the matching words.
+Finish Video 2 by showing the running app as directed in its section 7.
+Record your entire display so both VS Code and the browser app are captured.
+Do not record Video 2 using the white-panel guide. No PDF is needed for it.
+
+TIME LIMITS
+Video 1: maximum 3:00. Video 2: maximum 5:00. Video 3: maximum 5:00.
+The scripts leave a margin at a normal speaking pace. Rehearse once and check the
+actual duration; estimates are not actual recording lengths.
+
+AFTER RECORDING
+Save three separate videos and play each once. Confirm audible voice, readable
+figures, correct numbers and duration. Keep small natural pauses; correct substantive
+errors. Supply the actual video files or reviewable links and any automatic transcripts.
+Actual transcripts and timestamp indices must match what you recorded, not this script.
+
+This HTML guide does not make a recording itself. Use your normal screen recorder.
+Its evidence is embedded, so no internet connection or Streamlit launch is needed.

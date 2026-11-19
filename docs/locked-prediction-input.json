@@ -1,0 +1,7 @@
+{
+  "new_lookback_months": 24,
+  "expected_output_direction": "I predict higherand i expect the realized net volatility to be higher than the 36-month version.",
+  "finance_reasoning": "When you cut back the lookback windown from 36 to 24 months, I lose a lot of meaningful data. This increases the liklihood of error. With fewer observations in an already volatile tech portfolio, the optimizer becomes more susceptible to noise in the short term. This will make the quarterly targets jump around way more aggresively.",
+  "expected_decision_effect": "I do not expect this change to alter the current recommendation. The optimizer is already trailing equal weight by a ton. With higher volatility and more drawdown, the lookback isnt going to fix the structure of the model completely. With this being said i dont think we can suggest deploying real capital",
+  "authorship_attestation": "yes this was all done myself"
+}

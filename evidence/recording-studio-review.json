@@ -1,0 +1,27 @@
+{
+  "review_date": "2026-11-18",
+  "artifact": "recording/START-HERE.html",
+  "scope_note": "This documents the earlier 15-screen visual review. The six Video 2 presentation screens have since been replaced by VIDEO-2-START-HERE.html, actual repository instructions, and a verified live four-test command. Videos 1 and 3 retain their nine reviewed evidence screens. See video2-guide-check.json for the replacement guide.",
+  "browser": "Microsoft Edge, local file mode",
+  "screens_reviewed_visually": 15,
+  "browser_dom_checks": {
+    "screens_checked": 15,
+    "body_overflow": false,
+    "slide_overflow": false,
+    "code_overflow": false,
+    "next_works": true,
+    "previous_works": true,
+    "hide_narration_works": true,
+    "show_narration_works": true,
+    "video_selection_works": true,
+    "last_screen_stops_navigation": true,
+    "passed": true
+  },
+  "final_view": "Video 3 screen 1 verified readable in full-screen Edge with evidence and narration side by side.",
+  "limits": [
+    "These are recording-guide checks, separate from the application's numerical and interface tests.",
+    "Estimated script durations are not recorded video durations.",
+    "The guide displays saved source and execution evidence; it does not perform a live analysis run.",
+    "Actual recordings, matching transcripts and final access checks remain to be supplied."
+  ]
+}

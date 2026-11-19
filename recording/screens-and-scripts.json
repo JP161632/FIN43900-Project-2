@@ -1,0 +1,104 @@
+{
+  "videos": [
+    {
+      "number": 1,
+      "name": "Research evolution",
+      "limit": 180,
+      "slides": [
+        {
+          "screen": 1,
+          "title": "Edition A: my starting position",
+          "seconds": 40,
+          "html": "<p class=\"lead\">A provisional pilot, with important conditions.</p><div class=\"metrics\"><div><strong>0 / 70 / 25 / 5</strong><span>NVDA / MSFT / TSM / QCOM weights, percent</span></div><div><strong>24.82%</strong><span>Estimated annual volatility</span></div></div><ul><li>36-versus-60-month estimates changed an asset weight by 20 percentage points.</li><li>A one-point TSM mean cut did not change the chosen weights.</li><li>The starting position required forward evidence and monitoring.</li></ul><p class=\"note\">Edition A is the selected retrospective baseline. These are historical estimates, not realized strategy returns or a checkpoint receipt.</p>",
+          "say": "This project asks whether an optimized portfolio of NVIDIA, Microsoft, TSM and Qualcomm is ready for investment use. I use my earlier portfolio results as a retrospective Edition A baseline. The starting allocation was mostly Microsoft and TSM, and the position was a provisional pilot with monitoring. But there was already a warning: changing the estimation window moved one asset's weight by twenty percentage points. The apparently stable TSM stress did not resolve that concern.",
+          "source": "Preserved Edition A: baseline/prior-portfolio-snapshot/personal-results.json and original writeup",
+          "point": "Point at the weights, then the 20-percentage-point warning. Stay on this screen for the whole paragraph."
+        },
+        {
+          "screen": 2,
+          "title": "Edition B changed the recommendation",
+          "seconds": 45,
+          "html": "<p class=\"lead\">Compare the process with simple alternatives.</p><table><thead><tr><th>Rule</th><th>Net cumulative return</th><th>Annualized net volatility</th><th>Max. month-end drawdown</th></tr></thead><tbody><tr><td>Equal weight</td><td>70.97%</td><td>27.79%</td><td>-14.59%</td></tr><tr><td>Inverse volatility</td><td>62.16%</td><td>27.14%</td><td>-16.62%</td></tr><tr><td>Optimized portfolio</td><td>24.85%</td><td>29.61%</td><td>-28.14%</td></tr></tbody></table><p class=\"note\">October 2024–September 2026 · 24 replay months · 10 bps one-way cost · initial purchase included</p>",
+          "say": "Edition B adds a rolling comparison with equal weight and inverse volatility, using the same stocks, evaluation months and trading-cost assumptions. This table changed my recommendation. The optimized portfolio returned twenty-four point eight-five percent cumulatively, while equal weight returned seventy point nine-seven percent. The optimized portfolio also had higher realized volatility and a larger drawdown. I therefore moved from a provisional pilot position to no capital deployment and further paper research only.",
+          "source": "outputs/visible_output.json → replays → each rule at 10 bps",
+          "point": "Point to optimized versus equal-weight return, then their volatility columns. These returns are cumulative, not annual."
+        },
+        {
+          "screen": 3,
+          "title": "More checks strengthened that decision",
+          "seconds": 40,
+          "html": "<table><thead><tr><th>Net cumulative return</th><th>First 12 months</th><th>Last 12 months</th></tr></thead><tbody><tr><td>Optimized portfolio</td><td>19.55%</td><td>4.43%</td></tr><tr><td>Equal weight</td><td>34.29%</td><td>27.31%</td></tr></tbody></table><div class=\"metrics\"><div><strong>1</strong><span>Target-change limit breach</span></div><div><strong>9</strong><span>Trailing-volatility breach months</span></div></div><p class=\"note\">Post-result diagnostics. No strategy or threshold was retuned. The replay did not stop at the flags.</p>",
+          "say": "I also checked whether the conclusion depended on one part of the sample. The optimized portfolio trails equal weight in both twelve-month segments. Applying the accepted monitoring limits flags one excessive target change and nine trailing-volatility months. These are diagnostic results; they do not mean a live kill rule was executed. I kept the failures visible instead of changing the thresholds to make the strategy pass.",
+          "source": "outputs/review_evidence.json → subperiods and monitoring",
+          "point": "Show both table rows, then point to the two monitoring counts. No scrolling or app switching is needed."
+        },
+        {
+          "screen": 4,
+          "title": "My prediction was only partly supported",
+          "seconds": 35,
+          "html": "<p class=\"lead\">I predicted higher volatility and larger target changes.</p><table><thead><tr><th>Metric</th><th>36-month window</th><th>24-month window</th></tr></thead><tbody><tr><td>Annualized realized net volatility</td><td>29.61%</td><td>27.83%</td></tr><tr><td>Largest quarterly target change</td><td>20 percentage points</td><td>25 percentage points</td></tr><tr><td>Net cumulative return</td><td>24.85%</td><td>25.52%</td></tr></tbody></table><p class=\"note\">The original prediction was preserved. Larger target changes and more volatile realized returns are different measures.</p>",
+          "say": "My changed-input prediction was only partly supported. Shortening the window to twenty-four months increased the largest quarterly target change from twenty to twenty-five percentage points. But realized net volatility fell from twenty-nine point six-one to twenty-seven point eight-three percent, so my volatility prediction was wrong. This taught me to separate allocation instability from realized risk. The result does not establish a durable improvement, and my recommendation remains unchanged.",
+          "source": "evidence/locked-exercise/precommit.json and execution.json; corrected student reflection",
+          "point": "Point to the first two rows. Finish the paragraph, then stop the screen recorder. Video 1 is finished."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Committee presentation",
+      "limit": 300,
+      "slides": [
+        {
+          "screen": 1,
+          "title": "Committee decision",
+          "seconds": 40,
+          "html": "<div class=\"decision\">Do not deploy capital in the current process.</div><p class=\"lead\">Authorize further paper research only.</p><ul><li>User: committee evaluating a thematic research sleeve.</li><li>Universe: NVDA, MSFT, TSM and QCOM.</li><li>Same-universe equal weight is the primary comparison.</li><li>This does not establish a suitable whole-client allocation.</li></ul>",
+          "say": "My recommendation is not to deploy capital in the current optimized portfolio process. I am asking the committee to authorize further paper research only. The study concerns a four-stock thematic sleeve containing NVIDIA, Microsoft, TSM and Qualcomm. It evaluates whether the optimization process adds value relative to simple allocations. It does not establish a suitable portfolio for a client's entire wealth.",
+          "source": "Decision-Memo.pdf; docs/research-design.md; accepted student decisions",
+          "point": "Keep this screen visible for your opening. Point to the recommendation, then the universe. No other file needs to be open."
+        },
+        {
+          "screen": 2,
+          "title": "The simple baseline performed better",
+          "seconds": 50,
+          "html": "<table><thead><tr><th>Rule</th><th>Net cumulative return</th><th>Annualized net volatility</th><th>Max. month-end drawdown</th></tr></thead><tbody><tr><td>Equal weight</td><td>70.97%</td><td>27.79%</td><td>-14.59%</td></tr><tr><td>Inverse volatility</td><td>62.16%</td><td>27.14%</td><td>-16.62%</td></tr><tr><td>Optimized portfolio</td><td>24.85%</td><td>29.61%</td><td>-28.14%</td></tr></tbody></table><p class=\"note\">October 2024–September 2026 · 24 replay months · 10 bps one-way cost · initial purchase included</p><p class=\"takeaway\">The optimized process earned less and realized more volatility in this replay.</p>",
+          "say": "The comparison uses the same four stocks, the same twenty-four evaluation months and the same ten-basis-point one-way cost assumption, including initial purchase. The optimized portfolio returned twenty-four point eight-five percent cumulatively, compared with seventy point nine-seven percent for equal weight. Its annualized net volatility was twenty-nine point six-one percent, versus twenty-seven point seven-nine percent for equal weight. Its month-end maximum drawdown was also larger. These results do not support adoption of the optimizer merely because it minimizes an estimated risk measure.",
+          "source": "outputs/visible_output.json: 10-bps chronological replays",
+          "point": "Point to the optimized and equal-weight rows. Move from return to volatility to drawdown while speaking. Do not call cumulative return annual."
+        },
+        {
+          "screen": 3,
+          "title": "Concentration and estimation sensitivity",
+          "seconds": 45,
+          "html": "<div class=\"metrics\"><div><strong>95%</strong><span>Largest starting position in the original replay</span></div><div><strong>61.04%</strong><span>Largest starting position in the 50%-target-cap case</span></div></div><ul><li>The 50%-target-cap case returned 33.84% net and still trailed equal weight.</li><li>A target cap does not control subsequent market drift.</li><li>Changing the estimation window can materially change allocations.</li></ul><p class=\"note\">Separate research scenarios. None establishes a client-approved continuous concentration policy.</p>",
+          "say": "The concern is not just lower return. The original candidate reaches a ninety-five percent position at a replay boundary. A separate fifty percent target-cap scenario improves cumulative return to thirty-three point eight-four percent, but still trails equal weight. Its largest starting position later reaches about sixty-one percent because holdings drift between trades. This illustrates why the committee needs an explicit concentration policy and why a historical covariance estimate should not be treated as a stable description of future risk.",
+          "source": "outputs/visible_output.json: candidate_10bps and candidate_cap50_10bps",
+          "point": "Point to 95%, then the drifted 61.04% figure. Explain target versus actual holdings; no app expander needs to be found."
+        },
+        {
+          "screen": 4,
+          "title": "The limits affect the action",
+          "seconds": 50,
+          "html": "<ul><li>The candidate trails equal weight in both 12-month segments.</li><li>Monitoring diagnostics flag one target event and nine volatility months.</li><li>The data was previously inspected; this is not an untouched holdout.</li><li>Historical adjustments and idealized execution limit investability claims.</li><li>A historical volume proxy does not establish live capacity.</li></ul><p class=\"note\">The descriptive uncertainty interval includes zero for the annualized mean-return difference. No prospective superiority is established.</p>",
+          "say": "Additional checks reinforce caution. The candidate trails equal weight in both twelve-month subperiods, and the monitoring diagnostics show breaches. The data had already been inspected, so this is a chronological replay rather than an untouched holdout. Price adjustments are retrospective and execution is idealized. The descriptive uncertainty interval includes zero for the mean-return difference. The historical volume proxy also cannot establish live capacity. These limits restrict the action; passing code tests does not make the investment case acceptable.",
+          "source": "outputs/review_evidence.json; paired block interval in outputs/visible_output.json",
+          "point": "Move down the bullets while explaining their effect on the recommendation. This screen replaces multiple report pages and app sections."
+        },
+        {
+          "screen": 5,
+          "title": "Conditions for further research",
+          "seconds": 55,
+          "html": "<div class=\"roles\"><div><h3>Research analyst</h3><ul><li>Review quarterly.</li><li>Quarantine on provenance failure or infeasibility.</li><li>Quarantine above 15 pp target movement.</li><li>Quarantine above 22% trailing annualized net volatility.</li></ul></div><div><h3>Committee</h3><ul><li>Require a frozen prospective paper design.</li><li>Review a proposed 12 months of evidence.</li><li>Require suitable constraints and independent review.</li><li>Require credible execution, costs and capacity evidence.</li></ul></div></div><p class=\"takeaway\">No live pilot has occurred. Positive paper results would not automatically authorize capital.</p>",
+          "say": "The research analyst should review the paper process quarterly and quarantine it on missing provenance, infeasibility, excessive target movement or trailing-volatility breaches. The accepted thresholds are fifteen percentage points and twenty-two percent, using the defined monitoring windows. The prospective proposal fixes the rules and a later execution buffer before observing new outcomes, with a proposed twelve-month evaluation. No pilot has begun. Reopening capital consideration requires a suitable mandate, independent review and credible implementation evidence. The immediate committee action remains further evidence gathering, not deployment.",
+          "source": "Decision-Memo.pdf; docs/prospective-protocol.md; accepted monitoring assumptions",
+          "point": "Point to the analyst responsibilities, then committee conditions. Deliver the final sentence and stop the recorder. Video 3 is finished."
+        }
+      ]
+    }
+  ],
+  "recordingOrder": [
+    3,
+    1,
+    2
+  ]
+}

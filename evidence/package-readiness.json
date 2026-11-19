@@ -1,0 +1,30 @@
+{
+  "audited_at_utc": "2026-11-19T16:22:30.461001+00:00",
+  "manifest_rows": 12,
+  "required_rows": 11,
+  "missing_required_locations": [],
+  "access_unverified": [
+    "Research-Evolution.pdf",
+    "Repository",
+    "Visible executed output",
+    "Decision memo or deck",
+    "Validation-and-AI-Use.pdf",
+    "Video 1",
+    "Transcript Video 1",
+    "Video 2",
+    "Transcript Video 2",
+    "Video 3",
+    "Transcript Video 3"
+  ],
+  "substantive_gaps": [
+    "Edition A checkpoint resolution",
+    "AI-closed student rerun self-reported; saved rerun output still requires verification",
+    "Student code defense: recorded captions supplied; actual visual demonstration remains unverified",
+    "Repository/video access checks",
+    "Brightspace submission receipt",
+    "Webcam presence and audiovisual alignment require verification; durations verified from public page metadata",
+    "Video 1 explicit AI-output check/disposition not established by supplied transcript"
+  ],
+  "submission_ready": false,
+  "meaning": "Mechanical inventory only; no grade, authorship or instructor approval inferred."
+}

@@ -1,0 +1,47 @@
+PROJECT: Project 2 - Portfolio Committee Review
+VIDEO: 2 - Codebase Walkthrough and Validation
+STABLE VIDEO URL: https://youtu.be/EZolrbd3xOQ
+LAST SUPPLIED CAPTION END: 00:04:57.280 (media duration not independently verified)
+REPOSITORY FROZEN VERSION: project-2-review-2026-11-19
+REVIEW REPOSITORY: https://github.com/JP161632/FIN43900-Project-2
+REVIEW TAG: project-2-review-2026-11-19
+
+EDITORIAL NOTE: Prepared from the YouTube captions supplied by the student. Obvious recognition errors, punctuation, and repeated words have been corrected; some filler words have been removed. The personal name in the introduction is omitted. Section timestamps use supplied caption start times and have not been independently checked against the audio. Numerical claims and the recommendation are preserved. This is an edited transcript, not an independent audiovisual verification.
+
+[00:00:00.960] Speaker: Hi everyone. This is Project 2, Video 2. I'm excited to show you the code behind it, show you what's going on, and then we're going to run it.
+
+[00:00:11.360] This is my setup right here. The repository evaluates a four-stock portfolio process against simple baselines. A clean user creates a Python environment, installs requirements-lock.txt, runs analysis.py and review_analysis.py, and runs the tests. Streamlit then displays the saved results. No credentials or fresh data download are needed for the analysis.
+
+[00:00:33.360] The file map shows archived daily sources flowing into audited monthly prices, the analysis engine, frozen results, and the application. The saved adjustment factors do not establish historical point-in-time data availability.
+
+[00:00:45.760] Now we're going to move to analysis.py. We're going to line number 92.
+
+[00:01:00.079] The candidate function searches long-only, fully invested allocations on a five-percentage-point grid. It rejects allocations above the position cap or below the 10% historical-mean hurdle and keeps the feasible allocation with the lowest estimated volatility. This is a historical optimization criterion, not a promised return or a guarantee of low future risk.
+
+[00:01:21.759] We move to line 138.
+
+[00:01:29.200] The replay selects training returns before the evaluation. The slice ends before index i. Rebalancing occurs every three months. The evaluation start remains fixed when the lookback changes, so the comparison uses the same evaluation months. Holdings drift between trades. This protects the estimation window from using that month's return, but it does not prove executable same-close trading.
+
+[00:01:57.280] Now, looking at the trading cost, we're going to line 12.
+
+[00:02:02.159] The trade-cost function charges purchases and sales, including initial deployment. Basis points are divided by 10,000. It solves the fee from portfolio capital because the fee also changes how much capital remains to buy the target holdings. It checks invalid inputs rather than silently accepting unfunded trades, and it does not model taxes or actual market impact.
+
+[00:02:24.720] Now we're going to move on to tests.py, and we are going to line 33.
+
+[00:02:34.480] Looking right here, the highest-risk claims include the risk calculation and net-return accounting. This fixture uses four uncorrelated assets, each with 20% volatility and equal weights. The independent answer is 10% portfolio volatility: 20% divided by the square root of four. The test checks both that result and the optimizer's equal-weight answer. Other tests check exact fee arithmetic, reject a corrupted source hash, and reconstruct the first month's net return and subsequent weight drift.
+
+[00:03:05.680] Moving into the terminal, we're going to do this live. We go to Terminal, New Terminal. I have a command that's going to run this for us.
+
+[00:03:18.319] I'm running these four existing checks from the submitted repository. This is a live validation demonstration, separate from the locked changed-input exercise. All four checks pass. As you can see, the known-answer and fee fixtures challenge numerical logic. The corruption test checks a failure condition, and the first-month calculation checks the link from returns through costs to holdings. Passing these tests supports the implementation. It does not establish investment profitability.
+
+[00:03:46.400] Now I'm going to pull over my app that I created. This is the finished Portfolio Committee Review app. As you can see, this is an example of the portfolio comparisons. Right now it's looking at 10 basis points, but you can change it to 25. These numbers here are changing, and then we'll change it back to 10.
+
+[00:04:08.959] This is the finished Portfolio Committee Review app. It displays the saved research results rather than recalculating the optimizer in the browser. The cost selector switches between precomputed scenarios, updating the comparison and wealth chart.
+
+[00:04:21.040] Returning to 10 basis points, the optimized portfolio earned 24.85% cumulatively compared with 70.97% for equal weight. The four tests I just ran checked the selected calculations and failure handling. The broader saved validation covers additional cases. The short evaluation period and concentrated four-stock universe remain material limitations. My recommendation is no capital deployment and further paper research only.
+
+[00:04:46.080] As you can see, here's the rest of the app. Pretty cool stuff, pretty in-depth and detailed. Thank you guys so much. Have a good one. Bye.
+
+END OF CORRECTED TRANSCRIPT
+
+REVIEW NOTE: At approximately 00:01:58, the supplied captions say "line 12" for trade_cost. The recording guide points to line 112. The spoken line reference is retained because the audio has not been checked.
