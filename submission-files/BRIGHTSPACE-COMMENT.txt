@@ -1,7 +1,7 @@
 Project 2 - Portfolio Committee Review
 
-Repository (private instructional-team review): https://github.com/JP161632/FIN43900-Project-2/tree/project-2-review-2026-11-19-final
-Visible executed output: https://github.com/JP161632/FIN43900-Project-2/blob/project-2-review-2026-11-19-final/outputs/visible_output.json
+Repository (private instructional-team review): https://github.com/JP161632/FIN43900-Project-2/tree/project-2-submit-2026-11-19
+Visible executed output: https://github.com/JP161632/FIN43900-Project-2/blob/project-2-submit-2026-11-19/outputs/visible_output.json
 
 Video 1 - Research Evolution: https://youtu.be/tMAmXiDBVBg
 Video 2 - Codebase Walkthrough and Validation: https://youtu.be/EZolrbd3xOQ

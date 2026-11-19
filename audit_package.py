@@ -70,6 +70,11 @@ def main():
     if (ROOT/'evidence/locked-exercise/student-rerun-attestation.json').exists():
         gaps=[('AI-closed student rerun self-reported; saved rerun output still requires verification'
                if item.startswith('Locked-test execution-mode') else item) for item in gaps]
+    fresh_verification=None
+    if (ROOT/'evidence/fresh-locked-exercise/execution.json').exists():
+        from verify_fresh_execution import verify_record
+        fresh_verification=verify_record()
+        gaps=[item for item in gaps if not item.startswith(('Locked changed-input','Locked-test execution-mode','AI-closed student rerun'))]
     video_items=[r for r in records if r['item'].startswith('Video ')]
     transcript_items=[r for r in records if r['item'].startswith('Transcript Video ')]
     if len(video_items)==3 and len(transcript_items)==3 and all(r['location_or_url'] for r in video_items+transcript_items):
@@ -86,6 +91,7 @@ def main():
             'missing_required_locations':[r['item'] for r in records if r['required']=='yes' and not r['location_or_url']],
             'access_unverified':[r['item'] for r in records if r['required']=='yes' and r['access_checked'].lower()!='yes'],
             'substantive_gaps':gaps,
+            'fresh_student_record_verified':fresh_verification is not None,
             'submission_ready':False,
             'meaning':'Mechanical inventory only; no grade, authorship or instructor approval inferred.'}
     (ROOT/'evidence/package-readiness.json').write_text(json.dumps(report,indent=2)+'\n')

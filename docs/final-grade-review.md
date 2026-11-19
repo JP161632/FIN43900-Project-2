@@ -1,0 +1,19 @@
+# Conditional review with existing videos and completed 30-month exercise
+
+This is an assistant estimate for the student, not an instructor grade, guarantee or instruction to a grader. It uses the actual Brightspace rubric read November 19. It assumes the final updated attachments are submitted on time, the instructional team can access the private repository, and actual recordings demonstrate the code/visual evidence described by their transcripts. Full audiovisual performance was not independently reviewed.
+
+The student's preference is to keep the current videos. The review therefore retains a point allowance for missing explicit AI-output identification/check disposition in Video 1, even though the written report now contains that check. Written additions are not represented as recorded speech.
+
+| Criterion | Working estimate | Evidence and limitation |
+|---|---:|---|
+| Problem definition and decision usefulness | 18 / 45 | Clear committee action, user, horizon and constraints exist. For this conservative estimate, treat the unestablished original Edition A checkpoint at the rubric's Minimal anchor rather than assume the retrospective baseline earns original-checkpoint credit |
+| Data integrity and traceability | 45 / 45 | Source snapshots/hashes, dates, definitions, all 244 reconstructed prices, transformations/exclusions and timing limits are supplied. Private review limits exposure while redistribution rights remain unverified; a stricter treatment of that remaining licensing gap could reduce this to 38.25 |
+| Financial soundness and judgment | 60 / 60 | Consistent same-universe comparisons, self-financing costs, caps versus drift, units, subperiods, uncertainty and explicit monitoring/reopening conditions support a restrained no-deployment action. Causal overclaims in student/video wording are separately qualified |
+| Technical execution and usability | 45 / 45 | Runnable standalone package, locked dependencies, clean-environment reproduction, isolated matching outputs and ten interface checks. This score assumes actual grader access and the recorded walkthrough; inaccessible code would score much lower |
+| Validation, sensitivity and reproducibility | 63.75 / 75 | Nineteen numerical tests, independent fixtures, failure injections and the completed fresh 30-month prediction/freeze/run/reconciliation are present. Use Strong rather than assume maximum credit for the interpretation and independent-process evidence; tool state is self-attested and the study remains retrospective |
+| Professional communication | 21 / 30 | Coherent reports, manifest, corrected transcripts and three distinct video links. Existing Video 1 lacks explicit AI-output identification/disposition in the supplied text; full audiovisual alignment and private reviewer access require confirmation |
+| Total | 252.75 / 300 = 84.25% | Conditional working estimate with current videos |
+
+A reasonable preparation range is about **82%-86%**, not a promised lower bound. For example, scoring data at Strong rather than Decision-ready gives 246/300 = 82%. A stricter assessment of multiple criteria, missing visual evidence, access failure or an instructor's different interpretation can put the score below 80%. There is no published automatic total-score cap merely for retaining the current Video 1; its missing evidence is assessed under the relevant criterion. Do not double-count one gap across unrelated criteria.
+
+Given the student's stated objective of clearing 80% while avoiding another recording, keeping the existing videos is a reasonable choice on this evidence. A replacement would improve completeness and provide a margin, but the estimate does not require one. Grader access and incorporation of the new record are higher-priority must-do steps. Original checkpoint recovery, if genuine evidence exists, could materially improve the estimate; no invented receipt is assumed.

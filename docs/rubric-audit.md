@@ -18,8 +18,8 @@ The actual Project 2 Analytic Rubric was subsequently opened in Brightspace on
 November 19. Its six criterion weights and performance levels are summarized in
 brightspace-rubric-reference.md; the requirements-to-evidence map is in rubric-evidence-map.md.
 
-Highest remaining point risks: original Edition A checkpoint, original locked-run
-execution mode, explicit Video 1 AI check in the actual recording, webcam/visual
+Highest remaining point risks: original Edition A checkpoint,
+explicit Video 1 AI check in the actual recording, webcam/visual
 evidence and grader access. Exact manual steps and replacement recording preparation
 are in manual-final-steps.md. No missing original event is claimed as repaired.
 
@@ -29,7 +29,7 @@ are in manual-final-steps.md. No missing original event is claimed as repaired.
 | Data integrity and traceability | 45 | Hashes, original retrieval metadata, reconstructed prices, definitions, exclusions and missing-data rejection | Historical adjustment vintages unavailable; redistribution terms not cleared; point-in-time claims restricted |
 | Financial soundness and judgment | 60 | Baseline/candidate comparisons, self-financing costs, drift/cap scenario, subperiods, actual monitoring flags, target constraints and a unit-consistent historical liquidity proxy | Liquidity proxy is not executable capacity; no real-client suitability or fill evidence; no deployment claim |
 | Technical execution and usability | 45 | Self-contained app, missing/malformed/stale output handling, complete dependency lock, verified clean installation and isolated matching outputs | Unaided human reviewer remains unobserved; reviewer access not yet verified |
-| Validation, sensitivity and reproducibility | 75 | 19 numerical methods, ten actual-page checks, source reconstruction, window/cost/cap tests, paired block interval, subperiods, constraints and clean replay | Locked execution-mode condition unresolved despite preserved prediction/result/reflection; historical data already inspected |
+| Validation, sensitivity and reproducibility | 75 | 19 numerical methods, ten actual-page checks, source reconstruction, window/cost/cap tests, paired block interval, subperiods, constraints, clean replay and completed 30-month student prediction-first record | Fresh saved hashes and monthly arithmetic verified; tool state self-attested; original 24-month assistant history preserved; historical data already inspected |
 | Professional communication | 30 | Three rebuilt report PDFs, matching Markdown, README, linked manifest and three actual video URLs with corrected supplied transcripts | Explicit AI-output check in actual Video 1, full audiovisual review, private grader access and final receipt remain |
 
 ## Highest-risk claims and resulting actions

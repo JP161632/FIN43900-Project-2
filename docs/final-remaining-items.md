@@ -1,5 +1,13 @@
 # Remaining work before submission
 
+LATEST: The fresh 30-month exercise and student reconciliation are now complete and
+verified. The current three videos are retained at the student's preference. Follow
+the CURRENT STATUS section of manual-final-steps.md: grant/verify private grader
+access, confirm remaining visual evidence, supply original checkpoint evidence if it
+exists (otherwise retain disclosure), then submit seven attachments and save receipt.
+No repeated prediction, rerun or replacement video is claimed as necessary merely
+to submit this current package; known rubric gaps remain disclosed.
+
 ## Current status - November 19, 2026
 
 The sections below preserve the earlier working inventory. They are superseded by

@@ -1,0 +1,29 @@
+{
+  "precommitted_at_utc": "2026-11-19T19:17:02.548547+00:00",
+  "input": "rolling estimation lookback",
+  "old_value": 36,
+  "units": "monthly returns",
+  "prediction": {
+    "new_lookback_months": 30,
+    "expected_output_direction": "I expect our annualized realized net volatility will end up slightly lower (probably somewhere between 28% and 29%), while our largest quarterly target change will be higher (likely pushing past our 20-point baseline).",
+    "finance_reasoning": "When you drop six months of history, the optimizer is working with fewer data points, so it becomes a lot more twitchy and sensitive to short-term price swings between our four tech stocks\u2014which is why our target weights will jump around more at each quarterly rebalance. However, cutting out those older, bumpier months from late 2021 leaves behind a slightly calmer historical window, which should pull down realized volatility a bit during our 2024\u20132026 test, just like we saw when we tested the 24-month window.",
+    "expected_decision_effect": "No, this definitely won't change our recommendation\u2014it firmly stays \"do not deploy capital; continue paper research only.\" Shaving six months off a lookback window is just tweaking an arbitrary parameter; it doesn't fix the fact that our optimizer put 95% of our portfolio into a single stock at one point, nor does it come anywhere near touching our simple Equal-Weight baseline, which delivered a 71% return at lower volatility.",
+    "authorship_attestation": "Yes i did write these answers independently with generative tools closed"
+  },
+  "files": {
+    "analysis.py": "b49e4fba2b53583c9c0e58f0bd083e6cfa9bf578f25d363e8dfde311e671cbf6",
+    "vendor/portfolio.py": "26ddfbcd9b5da5a344ff8c492eb9eff9effe640a69d7d756fd93bc973d88531a",
+    "locked_exercise.py": "8bdc1f233f530feb5a55e5988be99892c7317246a7bc33b93a4ecefe3c3fb5eb",
+    "requirements.txt": "15349f7e5113c11412071c7ef49a09829163b72ace8976c52f59b36069d0865e",
+    "docs/research-design.md": "3f105823039f717213993a9e68ab252d58f1b7269a03dfc208d2467fd558d7e6",
+    "data/prices.csv": "f6d3e15f62efda6f28221339e9e973dbb78bdb4cee7f5c6ae39d8e23505c8389",
+    "data/price-provenance.json": "d6a6c0577b35f03879fb608a92cb059978d9afbc282e4f180f1c11e8025f2740",
+    "data/sources/MSFT-yahoo-daily.json": "8c4cb5ef8c4a2308e231718d17334ebf199ff6eebddca9b8a8da25c4060d16a2",
+    "data/sources/NVDA-yahoo-daily.json": "be377e73a67090583ef26d9411da590a835af38a6e2047108797f6fff5eb05f8",
+    "data/sources/QCOM-yahoo-daily.json": "199f158f3b12d016c6359badd304a462af83d940e7258487c57dddc2dc058725",
+    "data/sources/TSM-yahoo-daily.json": "a00fa16ce9f7b2d326b36a8a60fa11c08fffb86dc9feeb1b07a99ad25f12e9ac",
+    "fresh_locked_exercise.py": "8434b8a3d18253a10620aaa611d1de31b2b0ec1bc8bda62d032a29a4214cc8cf"
+  },
+  "limitations": "Local clock and hashes are not an externally authenticated timestamp or proof of authorship.",
+  "snapshot_sha256": "584b032a0ed508fb26e19cc47edfd51a38145a33020003a8a85693e27eef5d50"
+}

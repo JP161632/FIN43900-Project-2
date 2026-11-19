@@ -1,0 +1,3 @@
+Prediction and exact code/data archive preserved. No portfolio case was run.
+Snapshot SHA-256: 584b032a0ed508fb26e19cc47edfd51a38145a33020003a8a85693e27eef5d50
+Saved execution.json and student-reconciliation.md. Complete your own interpretation.

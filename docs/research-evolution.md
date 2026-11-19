@@ -72,6 +72,9 @@ manifest and docs/transcript-video-1.txt through transcript-video-3.txt. Correct
 transcripts preserve the recorded conclusion. Full audiovisual and access checks
 remain separate. Video 1's supplied text does not explicitly identify an AI output;
 this written check supplements the report and does not claim that it was spoken.
-Original Edition A checkpoint evidence and the saved personal rerun remain unresolved.
-The prediction, first assistant execution and later self-report are preserved honestly;
-a later rerun cannot recreate an earlier AI-closed execution or checkpoint.
+Original Edition A checkpoint evidence remains unresolved. The earlier 24-month
+prediction, assistant execution and later self-report remain preserved. A separate
+student-completed 30-month exercise is now available with a prediction frozen before
+execution and a saved reconciliation; it does not recreate the original checkpoint.
+The current recordings remain unchanged. The later 30-month evidence is a written
+post-recording addition, not represented as speech in those videos.

@@ -84,5 +84,8 @@ only after a new frozen prospective design, client mandate, operational executio
 cost/capacity evidence and independent validation have been reviewed. The companion
 prospective protocol fixes the future paper comparison, execution buffer and stop
 conditions; no future outcomes or pilot completion are claimed.
+The later 30-month student exercise returned 25.89% net with 28.69% volatility;
+maximum quarterly target movement remained 20 points. It does not reopen deployment.
+Its prediction, results and reconciliation are retained in the validation record.
 Named AI assistance and its verification are disclosed in Validation-and-AI-Use.pdf,
 including the corrected transcripts and preserved execution history.

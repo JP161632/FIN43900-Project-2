@@ -1,5 +1,22 @@
 # Project 2 - exact remaining student actions
 
+## Current status after the saved 30-month run
+
+The fresh exercise is COMPLETE: prediction frozen before execution, saved 36-to-30-month results, and the student's completed reconciliation are present. Archive/prediction hashes and independent saved-ledger arithmetic pass. Do not rerun or rewrite it. The earlier instructions below are retained for process history.
+
+The student prefers to retain the three current videos rather than make another recording. The package keeps those exact links/transcripts and discloses Video 1's missing explicit AI-output check as a remaining point risk. A replacement would improve completeness but is not represented as completed or necessary to submit the current work.
+
+Only the following actions remain for the intended current-video submission:
+
+1. Grant the exact instructional-team GitHub accounts access to https://github.com/JP161632/FIN43900-Project-2 through Settings > Collaborators/access, and confirm accepted access. Your own working link is not proof of grader access. Record the actual result/date in the manifest; do not guess a reviewer identity.
+2. Confirm Videos 2 and 3 include the required webcam/visual evidence and clear audio. Video 1's opening webcam was observed. A missing required visual element creates additional uncertainty in the grade estimate.
+3. If the original Edition A checkpoint receipt/PDF exists in Brightspace, preserve it unchanged and supply it. If absent, the report already discloses that gap; no replacement or backdated checkpoint is claimed. Submitting with that known point risk does not require inventing a recovery.
+4. After access/evidence changes, refresh the manifest/upload copies and release version. Upload the three PDFs, three transcripts and manifest from submission-files/. Paste BRIGHTSPACE-COMMENT.txt into the assignment Comments field, submit by November 23 at 11:59 PM (subject to the current account header), reopen the submission and save the successful receipt.
+
+See final-grade-review.md for the conditional estimate with the existing videos. No further prediction or explanation is required for the completed 30-month exercise.
+
+## Earlier detailed preparation instructions (historical)
+
 This checklist follows PROJECT-SUBMISSION-ARCHITECTURE.md and the course's major-project checklist. The technical work, report preparation and transcript editing can be assisted. Identity evidence, original checkpoint history, closed-tool execution and Brightspace submission must remain genuine.
 
 Brightspace was inspected on November 19: the final assignment is due November 23, 2026 at 11:59 PM and currently shows no submissions. Its instructions refer to the course GitHub repository. The attached actual 300-point rubric was read; see brightspace-rubric-reference.md. The student confirmed the supplied video links work. A webcam view was observed in the opening sample of Video 1; this does not certify its full duration or Videos 2 and 3.

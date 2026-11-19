@@ -1,8 +1,8 @@
 # Project 2 - submission links
 
-[Private repository](https://github.com/JP161632/FIN43900-Project-2/tree/project-2-review-2026-11-19-final)
+[Private repository](https://github.com/JP161632/FIN43900-Project-2/tree/project-2-submit-2026-11-19)
 
-[Visible executed output](https://github.com/JP161632/FIN43900-Project-2/blob/project-2-review-2026-11-19-final/outputs/visible_output.json)
+[Visible executed output](https://github.com/JP161632/FIN43900-Project-2/blob/project-2-submit-2026-11-19/outputs/visible_output.json)
 
 ## Video 1 - Research Evolution
 https://youtu.be/tMAmXiDBVBg

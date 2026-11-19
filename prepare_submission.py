@@ -7,7 +7,7 @@ import shutil
 
 ROOT=Path(__file__).resolve().parent
 REPO='https://github.com/JP161632/FIN43900-Project-2'
-TAG='project-2-review-2026-11-19-final'
+TAG='project-2-submit-2026-11-19'
 LABELS={1:'Research Evolution',2:'Codebase Walkthrough and Validation',3:'Committee Presentation'}
 VIDEO_IDS={1:'tMAmXiDBVBg',2:'EZolrbd3xOQ',3:'sqgNrHPguZ4'}
 FILES={'Research-Evolution.pdf':'Research-Evolution.pdf','Repository':'README.md',

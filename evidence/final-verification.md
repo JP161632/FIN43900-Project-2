@@ -1,5 +1,14 @@
 # November 19 final preparation checks
 
+LATEST UPDATE: The student's fresh 30-month prediction-first run and completed
+reconciliation are now present. Read-only verification passes snapshot/precommit
+hashes, prediction preservation, record ordering, original baseline matching and
+independent monthly-ledger arithmetic. The updated reports retain the current
+videos and qualify causal explanations separately. Final PDF lengths are baseline
+1 page, memo 2, evolution 2, validation 6 (11 rendered pages total). Private access
+check found one collaborator and no invitations; no grader access is established.
+The earlier preparation notes below retain their original sequence.
+
 - 14 core financial/source tests and 5 supplemental review tests pass.
 - 10 actual Streamlit interface checks pass, including missing/malformed-output paths.
 - An isolated process reproduces the original material output except its run timestamp.

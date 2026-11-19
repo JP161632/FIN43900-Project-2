@@ -135,5 +135,9 @@ No original Edition A or checkpoint receipt has been provided. The original stud
 prediction, assistant execution, and later reported personal rerun are preserved
 with their actual provenance. Three video links and corrected transcripts have now
 been supplied; no full audiovisual review, webcam confirmation or instructional-team
-access verification is inferred. The Brightspace receipt remains a post-submission
+access verification is inferred. A separate student-completed 30-month exercise now
+has a frozen prediction, actual execution and completed reconciliation; read-only
+archive and monthly-ledger checks pass. The original 24-month history is unchanged.
+The current videos are retained with Video 1's explicit AI-check gap disclosed.
+The Brightspace receipt remains a post-submission
 student action. See `docs/manual-final-steps.md` for exact remaining actions.

@@ -192,11 +192,77 @@ not mechanically determine realized return volatility. The revealed scenario
 cannot become a new unseen prediction exercise.
 
 
+## Remaining original and submission evidence
+Original Edition A checkpoint acceptance, full audiovisual ownership evidence,
+grader access and successful Brightspace submission remain to be verified.
+The current videos are retained at the student's preference; Video 1's missing
+explicit AI-output identification remains a known communication/evidence gap.
+The manual checklist supplies exact actions. Missing checkpoint
+history is not repaired by a retrospective label or an already-seen test.
+The actual Brightspace rubric was inspected November 19; the final assignment
+displays November 23, 2026 at 11:59 PM and directs students to the course repository.
+Its rubric reference and evidence map are retained in docs/. The fresh 30-month prediction, student execution and reconciliation are now saved and hash/arithmetic verified. The older 24-month rerun remains a historical self-report rather than the basis for this new record.
+
+
+<!-- pagebreak -->
+
+## Fresh student-completed locked exercise: 36 to 30 monthly returns
+This separate case was completed after the earlier 24-month result was known.
+Its specific 30-month result was not supplied before the prediction. The same
+dataset remains previously inspected; this is not a new holdout or prospective test.
+The student reports closed-tool drafting and execution. The assistant verified
+saved hashes and monthly-ledger arithmetic afterward; no scenario was rerun.
+
+Input: estimation window, 36 to 30 monthly returns. Four stocks, 24 evaluation
+months, quarterly trades, 10-bps one-way costs, hurdle and grid were held fixed.
+Prediction freeze: 2026-11-19T19:17:02.548547+00:00. Execution: 2026-11-19T19:17:03.784544+00:00.
+Snapshot SHA-256: 584b032a0ed508fb26e19cc47edfd51a 38145a33020003a8a85693e27eef5d50.
+Exact original text, archive and full results remain under evidence/fresh-locked-exercise/.
+
+## Human prediction before this run (preserved)
+I expect our annualized realized net volatility will end up slightly lower (probably somewhere between 28% and 29%), while our largest quarterly target change will be higher (likely pushing past our 20-point baseline).
+
+The student's stated reasoning was that fewer observations would increase
+target sensitivity while the retained estimation window might produce lower
+realized volatility. Expected decision: no deployment; further paper research only.
+The verbatim reasoning and authorship attestation remain in precommit.json and
+the unchanged docs/fresh-prediction-input.json; accuracy is assessed after the run.
+
+| Metric | Before: 36 months | After: 30 months |
+|---|---:|---:|
+| Net cumulative return | 24.85% | 25.89% |
+| Annualized realized net volatility | 29.61% | 28.69% |
+| Month-end max drawdown | -28.14% | -28.14% |
+| Largest quarterly target movement | 20 percentage points | 20 percentage points |
+
+## Student reconciliation and actual decision
+The student explicitly acknowledges that the 28%-29% volatility prediction was
+supported but the prediction of target movement above 20 points was not. Actual
+action remains no deployment: the process still trails equal weight, retains the
+same reported drawdown and lacks prospective/implementation evidence.
+
+The original explanation is preserved in student-reconciliation.md. Its proposed
+"data cushion" explanation is a hypothesis, not an isolated cause. Maximum target
+movement is not turnover. Lower realized volatility does not establish persistence.
+The changes are 0.92 percentage points lower volatility and 1.03 points higher
+cumulative return. The 30-month maximum starting security weight is 95.26%.
+
+Independent saved-ledger checks reconcile compounding, CAGR, sample volatility,
+drawdown and target movement for both cases. Original prediction/archive hashes
+match; collected prediction precedes freeze and execution in local records.
+Tool state and identity remain student self-attestations. This new evidence
+addresses the final locked-record requirement without relabeling the original run.
+It is added after recording; none of it is invented as earlier video narration.
+
+<!-- pagebreak -->
+
+
 ## Named material AI-use register
 | Tool / exposed version / date | Material contribution | Check and disposition |
 |---|---|---|
 | Codex; exact model/version not exposed in the working tools; November 17, 2026 | Project research design, code, validation, interface, reports, rehearsal drafts and requested changed-input execution | Source reconstruction, independent numeric fixtures, mutation tests and interface replay; student accepted assumptions and recommendation; exact user prediction and later reflection preserved; execution provenance retained |
 | Codex, GPT-6 (system-exposed identity; exact backend build not exposed); November 19, 2026 | Editorial correction of supplied YouTube captions; submission audit; documentation, report, manifest and private publication preparation | Material quoted results checked against frozen outputs; timestamps retained from supplied captions; substantive uncertainties flagged; human-only events and media review not fabricated |
+| Codex, GPT-6; November 19, 2026, after fresh student execution | Preserve supplied prediction and original reconciliation; independently check saved record hashes/monthly arithmetic; update reports and submission snapshot | Original files retained; new scenario not run by assistant; numerical changes reconciled; causal interpretations qualified separately; current videos unchanged |
 
 Checks executed through the same assistant are reproducible engineering evidence,
 not an independent human review or independent source corroboration. Student
@@ -216,35 +282,17 @@ transcripts are now present. This supersedes earlier missing-recording inventory
 without certifying audiovisual content, webcam presence or logged-out playback.
 
 ## Submitted recordings and transcript corrections
-Video 1: https://youtu.be/tMAmXiDBVBg - captions end at 2:53.120 (maximum 3:00).
-Video 2: https://youtu.be/EZolrbd3xOQ - captions end at 4:57.280 (maximum 5:00).
-Video 3: https://youtu.be/sqgNrHPguZ4 - captions end at 3:14.400 (maximum 5:00).
-These are caption endpoints, not independently measured media durations. Section
-indices are in the manifest. Actual video/audio alignment and access need verification.
-Separately, November 19 public YouTube page metadata reports playable status,
-captions and durations of 2:52, 4:56 and 3:13, all within limits. Caption endpoints
-can extend beyond the reported media endpoint; the supplied section indices
-remain inside each duration. Metadata is not full playback verification.
-The student subsequently confirmed the video links work. A small webcam view was
-observed in the opening sample of Video 1 during browser review. Full recording
-coverage and Videos 2/3 webcam evidence remain separate from that sample.
-Caption corrections include Edition A/B, Streamlit, requirements-lock.txt, square
-root of four, allocation instability and capital deployment. Video 3's immediate
-spoken correction is consolidated to 70.97%. No later written improvement is
-represented as original speech. Personal names are omitted from the retained text.
+Video 1: https://youtu.be/tMAmXiDBVBg - metadata duration 2:52, maximum 3:00.
+Video 2: https://youtu.be/EZolrbd3xOQ - metadata duration 4:56, maximum 5:00.
+Video 3: https://youtu.be/sqgNrHPguZ4 - metadata duration 3:13, maximum 5:00.
+November 19 public metadata reports playable status and captions; the student
+confirms the links work. A webcam is visible in Video 1's opening sample.
+Full audiovisual alignment and Videos 2/3 webcam coverage remain unverified.
+The manifest supplies section indices; transcript headers retain caption endpoints,
+which can extend past the media endpoint. Captions were corrected for recognition
+errors, finance terms and code names. Video 3's immediate self-correction is
+consolidated to 70.97%. Later written results are not presented as original speech.
 
-Video 1's concentration explanation is not an isolated causal finding. The
-comparison establishes realized differences, not their sole cause. Video 2's
-captioned line 12 is retained and flagged against the guide's line 112. The
-Video 1 AI-output requirement and webcam requirement cannot be certified from
-the supplied text. Do not conceal these limits by rewriting the transcript.
-
-## Remaining original and submission evidence
-Original Edition A checkpoint acceptance, the saved personal rerun, actual oral
-ownership evidence, grader access and the successful Brightspace submission remain
-to be verified. The manual checklist supplies exact actions. Missing checkpoint
-history is not repaired by a retrospective label or an already-seen test.
-The actual Brightspace rubric was inspected November 19; the final assignment
-displays November 23, 2026 at 11:59 PM and directs students to the course repository.
-Its rubric reference and evidence map are retained in docs/. The prepared fresh
-30-month case has not been run and its prediction remains blank for the student.
+Video 1's concentration explanation is not an isolated causal finding; its explicit
+AI-output identification is absent from supplied speech. Video 2's captioned line
+12 is flagged against guide line 112. Original speech is not silently rewritten.

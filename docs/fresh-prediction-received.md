@@ -1,5 +1,7 @@
 # Fresh 30-month prediction received - before execution
 
+LATER STATUS: The student has now frozen and executed the 30-month case and completed the reconciliation. Saved hashes and arithmetic are verified in evidence/fresh-execution-verification.json. This document retains the original pre-run receipt/instructions; no repeat run is needed.
+
 The student supplied the prediction and affirmed independent authorship with generative tools closed. The assistant transcribed the four answers without substantive changes into `fresh-prediction-input.json` and retained the supplied text in `fresh-prediction-original.txt`. The authorship/tool-state statement is self-attested, not independently observed.
 
 The earlier frozen review report described this form as blank. That description records its earlier preparation state; it is superseded by this dated receipt for the prediction's current status. The 30-month case remains unexecuted. No feedback on the prediction's accuracy or reasoning has been supplied before the student's run.

@@ -1,5 +1,7 @@
 PROJECT 2 - SUBMISSION FILES AND STEPS
 
+LATEST STATUS: The fresh 30-month student prediction/run/reconciliation is now complete and verified. The current three videos are retained at the student's preference. No new prediction, rerun or replacement video is required to submit this chosen package, though Video 1's explicit AI-check gap remains a point risk. Read MANUAL-STEPS.md's current-status section for the remaining access, original-checkpoint-if-available, visual-confirmation and final-upload steps. The updated conditional estimate with existing videos is about 82%-86%, assuming grader access; this is not guaranteed.
+
 Required contents were verified against the course repository's PROJECT-SUBMISSION-ARCHITECTURE.md, especially "The final Brightspace submission contains," and projects/major-project-student-checklist.md. The architecture applies explicitly to Project 2. Brightspace supplies the exact deadline, any filename prefix, and the instructional-team GitHub access identity. The repository is sufficient to establish the attachment list below; no additional assignment screenshot is needed for that list.
 
 FILES TO ATTACH

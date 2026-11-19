@@ -1,5 +1,7 @@
 # Preserved changed-input record and execution boundary
 
+CURRENT REQUIRED RECORD: The separate 36-to-30-month student exercise is now complete in evidence/fresh-locked-exercise/. Its prediction/archive hashes and monthly-ledger arithmetic pass read-only verification. Net return changes 24.85% to 25.89%, realized annualized volatility 29.61% to 28.69%, and largest quarterly target movement remains 20 points. The original student reconciliation acknowledges the supported volatility prediction, unsupported target-change prediction and unchanged no-deployment action. The validation PDF contains the new record. The earlier 24-month history below is retained separately and is not relabeled as the fresh run.
+
 Actual retained evidence is summarized here. Original records and history remain unchanged.
 
 | Field | Preserved record |
